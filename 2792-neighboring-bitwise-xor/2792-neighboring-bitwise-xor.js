@@ -4,10 +4,11 @@
  */
 var doesValidArrayExist = function (derived) {
 
-    let xorDerived = 0;
+    let xorSum = 0;
     for(const num of derived){
-        xorDerived ^= num;
+        xorSum ^= num;
     }
 
-    return xorDerived === 0;
+     // If the XOR sum is 0, a valid original array exists
+    return xorSum === 0;
 };
