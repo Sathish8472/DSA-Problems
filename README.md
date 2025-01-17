@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0001-two-sum) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Sathish8472/DSA-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2792-neighboring-bitwise-xor](https://github.com/Sathish8472/DSA-Problems/tree/master/2792-neighboring-bitwise-xor) |
 ## Hash Table
 |  |
 | ------- |
@@ -14,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Sathish8472/DSA-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2792-neighboring-bitwise-xor](https://github.com/Sathish8472/DSA-Problems/tree/master/2792-neighboring-bitwise-xor) |
 ## Brainteaser
 |  |
 | ------- |
