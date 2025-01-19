@@ -3,6 +3,8 @@
  * @return {number}
  */
 
+// Approach 2: Two pointers
+// TC: O(n), SP: O(1)
 var trap = function (height) {
     const n = height.length;
 
