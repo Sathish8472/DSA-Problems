@@ -42,64 +42,50 @@ var firstCompleteIndex = function (arr, mat) {
 
 
  // Approach 1: Brute force
-var firstCompleteIndex1 = function (arr, mat) {
-    const len = arr.length;
+var firstCompleteIndex_1 = function (arr, mat) {
     const m = mat.length;
     const n = mat[0].length;
-    let index = 0;
 
-    const isAnyRowPainted = (mat) => {
-        
-        for (let x = 0; x < m; x++) {
-            let count = 0;
-            for (let y = 0; y < n; y++) {
-                if (mat[x][y] === 0) {
-                    count++;
-                }
-            }
-
-            if (count === n) {
+    const isAnyRowPainted = () => {
+        for (let row = 0; row < m; row++) {
+            if(mat[row].every(cell => cell === 0))
                 return true;
-            }
-        }
-        
-        console.log(`Mat in row: ${mat} `);
-        return false;
-    }
-
-    function isAnyColPainted(mat) {
-        for (let x = 0; x < n; x++) {
-            let count = 0;
-            for (let y = 0; y < m; y++) {
-                if (mat[y][x] === 0) {
-                    count++;
-                }
-            }
-
-            if (count === m) {
-                return true;
-            }
         }
 
         return false;
     }
 
-    for (let i = 0; i < len; i++) {
+    const isAnyColPainted = () => {
+        for (let col = 0; col < n; col++) {
+            let isFullPainted = true;
+            for(let row = 0; row < m; row++){
+                if(mat[row][col] !== 0){
+                    isFullPainted = false;
+                    break;
+                }
+            }
+
+            if (isFullPainted) return true;
+        }
+
+        return false;
+    }
+
+    for (let i = 0; i < arr.length; i++) {
         let paintValue = arr[i];
 
-        for (let j = 0; j < m; j++) {
-            for (let k = 0; k < n; k++) {
-                if (mat[j][k] == paintValue) {
-                    mat[j][k] = 0;
+        for (let row = 0; row < m; row++) {
+            for (let col = 0; col < n; col++) {
+                if (mat[row][col] == paintValue) {
+                    mat[row][col] = 0;
                 }
             }
         }
 
         if (isAnyRowPainted(mat) || isAnyColPainted(mat)) {
-            index = i;
-            break;
+            return i;
         }
     }
 
-    return index;
+    return -1;
 };
