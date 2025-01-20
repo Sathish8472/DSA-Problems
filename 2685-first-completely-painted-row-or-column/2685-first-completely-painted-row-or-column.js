@@ -12,6 +12,7 @@ var firstCompleteIndex = function (arr, mat) {
     const m = mat.length;
     const n = mat[0].length;
 
+    // Map values to their position in matrix
     const positionMap = new Map();
     for(let i = 0; i < m; i++){
         for(let j = 0; j < n; j++){
@@ -19,16 +20,18 @@ var firstCompleteIndex = function (arr, mat) {
         }
     }
 
+    // Track painted cells in row/cols
     const rowPaintCount = new Array(m).fill(0);
     const colPaintCount = new Array(n).fill(0);
-    
+
     for(let i = 0 ; i < m * n; i++){
-        //console.log(positionMap);
         const [row, col] = positionMap.get(arr[i]);
 
+        // Paint the cell
         rowPaintCount[row]++;
         colPaintCount[col]++;
 
+        // Check if any row/col is completely painted
         if(rowPaintCount[row] === n || colPaintCount[col] === m){
             return i;
         }
