@@ -2,7 +2,9 @@
  * @param {number[]} nums
  * @return {number}
  */
-var rob1 = function (nums) {
+
+// Space efficient
+var rob = function (nums) {
     const n = nums.length;
     let prev = nums[0];
     let prev2 = 0;
@@ -23,7 +25,8 @@ var rob1 = function (nums) {
     return prev;
 };
 
-var rob = function (nums) {
+// DP
+var rob1 = function (nums) {
 
     const solve = (ind, nums, dp) => {
 
