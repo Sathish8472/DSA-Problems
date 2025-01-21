@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0001-two-sum) |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
 | [0198-house-robber](https://github.com/Sathish8472/DSA-Problems/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0213-house-robber-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0407-trapping-rain-water-ii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2145-grid-game](https://github.com/Sathish8472/DSA-Problems/tree/master/2145-grid-game) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
 | [0198-house-robber](https://github.com/Sathish8472/DSA-Problems/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0213-house-robber-ii) |
 ## Stack
 |  |
 | ------- |
