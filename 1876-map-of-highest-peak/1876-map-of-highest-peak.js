@@ -3,6 +3,7 @@
  * @return {number[][]}
  */
 
+// BFS, Time: O(m * n), Space: O(m * n)
 var highestPeak = function (isWater) {
     const m = isWater.length;
     const n = isWater[0].length;
@@ -18,8 +19,6 @@ var highestPeak = function (isWater) {
             }
         }
     }
-
-    //console.log("Q: ", queue);
 
     const directions = [
         [0, 1],
@@ -39,14 +38,11 @@ var highestPeak = function (isWater) {
 
             // Check if the neighbours are within the bounds and not visited
             if (nx >= 0 && nx < m && ny >= 0 && ny < n && height[nx][ny] === -1) {
-                //console.log("inside");
                 height[nx][ny] = height[x][y] + 1;
                 queue.push([nx, ny]);
             }
         }
     }
-
-    //console.log("H:", height);
 
     return height;
 };
