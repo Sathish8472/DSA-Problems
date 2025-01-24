@@ -7,13 +7,15 @@ var eventualSafeNodes = function (graph) {
     const reverseGraph = Array.from({ length: n }, () => []);
     const inDegree = Array(n).fill(0);
 
-    
     for (let u = 0; u < n; u++) {
         for (const v of graph[u]) {
             reverseGraph[v].push(u);
             inDegree[u]++;
         }
     }
+
+    console.log(reverseGraph);
+    console.log(inDegree);
 
     const queue = [];
     for (let i = 0; i < n; i++) {
