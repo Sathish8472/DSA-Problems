@@ -14,7 +14,7 @@ class Solution:
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         filtered_chars = ''.join(c.lower() for c in s if c.isalnum())  # this is filtering the special characters
-        print("dsfsd")
+        
         left, right = 0, len(filtered_chars) - 1
         while(left < right):
             if(filtered_chars[left] != filtered_chars[right]):
