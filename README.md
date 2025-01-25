@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
+| [0062-unique-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0062-unique-paths) |
 | [0198-house-robber](https://github.com/Sathish8472/DSA-Problems/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0213-house-robber-ii) |
 ## Stack
@@ -111,4 +112,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Sathish8472/DSA-Problems/tree/master/0125-valid-palindrome) |
+## Math
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0062-unique-paths) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
