@@ -3,7 +3,7 @@ class Solution:
         filtered_chars = ''.join(c.lower() for c in s if c.isalnum())  # this is filtering the special characters
         n = len(filtered_chars)
         
-        for i in range(n // 6):
+        for i in range(n // 2):
             if(filtered_chars[i] != filtered_chars[n - 1 - i]):
                 return False;
 
