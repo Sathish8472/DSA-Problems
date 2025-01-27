@@ -3,9 +3,42 @@
  * @return {number}
  */
 
+// Tabulation
+function minPathSum(grid) {
+    const n = grid.length;
+    const m = grid[0].length;
+
+    const dp = new Array(n).fill(null).map(() => new Array(m).fill(0));
+
+    // Loop through each cell in the matrix
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < m; j++) {
+            if (i === 0 && j === 0) {
+                // If we are at the top-left cell, set dp[i][j] to the value in the matrix
+                dp[i][j] = grid[i][j];
+            } else {
+                // Calculate the sum of the current cell and the minimum of the two possible paths (from above and from the left)
+                let up = grid[i][j];
+                if (i > 0) up += dp[i - 1][j];
+                else up += Infinity; // Set to a large value for the top row
+
+                let left = grid[i][j];
+                if (j > 0) left += dp[i][j - 1];
+                else left += Infinity; // Set to a large value for the leftmost column
+
+                // Store the minimum sum in dp[i][j]
+                dp[i][j] = Math.min(up, left);
+            }
+        }
+    }
+
+    // The minimum sum path will be in dp[n-1][m-1]
+    return dp[n - 1][m - 1];
+}
+
+
 // Memoization
-var minPathSum = function (grid) {
-    // Get the dimensions of the matrix
+var minPathSum1 = function (grid) {
     const n = grid.length;
     const m = grid[0].length;
 
