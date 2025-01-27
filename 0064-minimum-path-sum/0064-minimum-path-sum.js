@@ -3,7 +3,48 @@
  * @return {number}
  */
 
-// Tabulation
+// Space Optimization, TC: O(M*N), SP: O(N)
+function minSumPath(grid) {
+    const n = grid.length;
+    const m = grid[0].length;
+
+    // Create an array 'prev' to store the minimum sum for the previous row
+    let prev = new Array(m).fill(0);
+
+    // Loop through each row in the matrix
+    for (let i = 0; i < n; i++) {
+        // Create an array 'temp' to store the minimum sum for the current row
+        let temp = new Array(m).fill(0);
+
+        // Loop through each cell in the current row
+        for (let j = 0; j < m; j++) {
+            if (i === 0 && j === 0) {
+                // If we are at the top-left cell, set temp[j] to the value in the matrix
+                temp[j] = grid[i][j];
+            } else {
+                // Calculate the sum of the current cell and the minimum of the two possible paths (from above and from the left)
+                let up = grid[i][j];
+                if (i > 0) up += prev[j];
+                else up += Infinity; // Set to a large value for the top row
+
+                let left = grid[i][j];
+                if (j > 0) left += temp[j - 1];
+                else left += Infinity; // Set to a large value for the leftmost column
+
+                // Store the minimum sum in temp[j]
+                temp[j] = Math.min(up, left);
+            }
+        }
+
+        prev = temp;
+    }
+
+    // The minimum sum path will be in the last element of 'prev' array
+    return prev[m - 1];
+}
+
+
+// Tabulation, TC: O(N*M), SP: O(N*M)
 function minPathSum(grid) {
     const n = grid.length;
     const m = grid[0].length;
