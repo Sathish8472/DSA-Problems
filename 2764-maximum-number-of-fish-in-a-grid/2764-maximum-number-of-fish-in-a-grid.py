@@ -5,12 +5,7 @@ class Solution:
         visited = [[False] * n for _ in range(m)]
 
         def isValid(x, y):
-            return (
-                0 <= x < m
-                and 0 <= y < n
-                and grid[x][y] > 0
-                and not visited[x][y]
-            )
+            return 0 <= x < m and 0 <= y < n and grid[x][y] > 0 and not visited[x][y]
 
         def dfs(x, y):
             visited[x][y] = True
