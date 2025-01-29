@@ -1,33 +1,24 @@
 # DFS - Brute force
 class Solution:
-    def _is_connected(self, src, target, visited, adj_list):
-        visited[src] = True
-
-        if src == target:
-            return True
-
-        is_found = False
-        for adj in adj_list[src]:
-            if not visited[adj]:
-                is_found = is_found or self._is_connected(
-                    adj, target, visited, adj_list
-                )
-
-        return is_found
-
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
-        N = len(edges)
+        graph = defaultdict(list)
 
-        adj_list = [[] for _ in range(N)]
+        def has_cycle(src, dest, visited):
+            if src == dest:
+                return True
 
-        for edge in edges:
-            visited = [False] * N
+            visited.add(src)
+            for neighbor in graph[src]:
+                if neighbor not in visited:
+                    if has_cycle(neighbor, dest, visited):
+                        return True
+            return False
 
-            # If DFS returns true, we will return the edge
-            if self._is_connected(edge[0] - 1, edge[1] - 1, visited, adj_list):
-                return edge
+        for u, v in edges:
+            if u in graph and v in graph and has_cycle(u, v, set()):
+                return [u, v]
 
-            adj_list[edge[0] - 1].append(edge[1] - 1)
-            adj_list[edge[1] - 1].append(edge[0] - 1)
+            graph[u].append(v)
+            graph[v].append(u)
 
         return []
