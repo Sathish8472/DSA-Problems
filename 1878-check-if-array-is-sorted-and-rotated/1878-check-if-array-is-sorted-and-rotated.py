@@ -1,4 +1,7 @@
 class Solution:
+    """
+    Optimised: O(N)
+    """
     def check(self, nums: List[int]) -> bool:
         n = len(nums)
         break_count = 0
@@ -14,7 +17,9 @@ class Solution:
         return True
 
 
-
+"""
+Brute Force: O(N ^ 2)
+"""
 class Solution1:
     def check(self, nums: List[int]) -> bool:
         n = len(nums)
