@@ -1,16 +1,28 @@
 class Solution:
     def check(self, nums: List[int]) -> bool:
         n = len(nums)
-        orgNumbers = sorted(nums)
-        print(orgNumbers)
+        break_count = 0
 
         for i in range(n):
-            rotated = orgNumbers[i:] + orgNumbers[:i]
-            print("i: ", i);
-            print("Orgin: ", orgNumbers)
-            print("Org i:", orgNumbers[i:])
-            print("Org :i", orgNumbers[:i])
-            if rotated == nums:
+            next_index = (i + 1) % n
+            if nums[i] > nums[next_index]:
+                break_count += 1
+            
+            if break_count > 1:
+                return False
+
+        return True
+
+
+
+class Solution1:
+    def check(self, nums: List[int]) -> bool:
+        n = len(nums)
+        sorted_nums = sorted(nums)
+
+        for i in range(n):
+            rotated_version = sorted_nums[i:] + sorted_nums[:i]
+            if rotated_version == nums:
                 return True
 
         return False
