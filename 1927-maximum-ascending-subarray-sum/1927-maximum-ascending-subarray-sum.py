@@ -3,12 +3,12 @@ class Solution:
         max_sum = 0
         cur_sum = nums[0]
 
-        for start in range(1, len(nums)):
-            if nums[start] <= nums[start - 1]:
+        for i in range(1, len(nums)):
+            if nums[i] <= nums[i - 1]:
                 max_sum = max(max_sum, cur_sum)
                 cur_sum = 0
             
-            cur_sum += nums[start]
+            cur_sum += nums[i]
 
         
         return max(max_sum, cur_sum)
