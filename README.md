@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0063-unique-paths-ii) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/Sathish8472/DSA-Problems/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/Sathish8472/DSA-Problems/tree/master/0283-move-zeroes) |
