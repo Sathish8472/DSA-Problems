@@ -19,7 +19,6 @@ class Solution:
         non_zero_count = 0
 
         for num in nums:
-            print(non_zero_count)
             if num != 0:
                 nums[non_zero_count] = num
                 non_zero_count += 1
