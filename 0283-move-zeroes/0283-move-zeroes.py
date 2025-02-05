@@ -1,8 +1,9 @@
 class Solution: 
+    # Optimized Solution
     def moveZeroes(self, nums: List[int]) -> None:
 
         last_non_zero_found = 0;
-
+        
         for cur in range(len(nums)):
             if nums[cur] != 0:
                 nums[last_non_zero_found], nums[cur] = nums[cur], nums[last_non_zero_found]
