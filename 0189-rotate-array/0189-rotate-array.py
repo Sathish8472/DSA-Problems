@@ -1,6 +1,6 @@
 class Solution:
     # In-Place Reversal Efficient
-    def rotate45(self, nums: List[int], k: int) -> None:
+    def rotate(self, nums: List[int], k: int) -> None:
         n = len(nums)
         k = k % n          # Handle edge case
 
@@ -16,21 +16,24 @@ class Solution:
 
 
 
+
     # Deque Data Structure
-    def rotate(self, nums: list[int], k: int) -> None:
+    def rotate_2(self, nums: list[int], k: int) -> None:
         d = deque(nums)
         d.rotate(k)
         for i in range(len(nums)):
             nums[i] = d[i]
 
 
+
     # Array Slicing 
     # Extra space - rotated variable O(N)
-    def rotate2(self, nums: list[int], k: int) -> None:
+    def rotate_1(self, nums: list[int], k: int) -> None:
         n = len(nums)
-        n = k % n
+        k = k % n
 
         rotated = nums[-k:] + nums[:-k]
+        # Assign the value back to the original array
         for i in range(n):
             nums[i] = rotated[i]
 
