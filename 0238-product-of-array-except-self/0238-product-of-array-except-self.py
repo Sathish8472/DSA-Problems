@@ -8,15 +8,11 @@ class Solution:
             answer[i] = left_product
             left_product *= num
 
-        print("left_product:", left_product)
-        print("answer:", answer)
-        
         right_product = 1
         for i in range(n - 1, -1, -1):
             answer[i] *= right_product
             right_product *= nums[i]
 
-        print(right_product)
         return answer
 
 
