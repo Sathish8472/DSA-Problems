@@ -1,9 +1,7 @@
 class Solution:
-    def firstMissingPositive_1(self, nums: List[int]) -> int:
+    def firstMissingPositive(self, nums: List[int]) -> int:
         n = len(nums)
         seen = [False] * (n + 1)
-
-        print(seen)
 
         for num in nums:
             if 0 < num <= n:
@@ -17,7 +15,7 @@ class Solution:
     
     # Hashing Approach
     # Extra Space
-    def firstMissingPositive2(self, nums: List[int]) -> int:
+    def firstMissingPositive_2(self, nums: List[int]) -> int:
         num_set = set(nums)
         expected = 1
 
@@ -27,8 +25,8 @@ class Solution:
 
         
     # Brute force
-    # Gets failed for many cases
-    def firstMissingPositive(self, nums: List[int]) -> int:
+    # Sorting Approach (Not Optimal for Large Arrays)
+    def firstMissingPositive_1(self, nums: List[int]) -> int:
         nums.sort()
         expected = 1
         for num in nums:
