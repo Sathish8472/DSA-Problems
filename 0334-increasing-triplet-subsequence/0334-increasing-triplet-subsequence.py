@@ -1,7 +1,7 @@
 class Solution:
 
     # Greedy Optimal 
-    def increasingTriplet_12(self, nums: List[int]) -> bool:
+    def increasingTriplet(self, nums: List[int]) -> bool:
         first_num = second_num = float('inf')
         n = len(nums)
 
@@ -18,7 +18,8 @@ class Solution:
 
 
     # Using Two Arrays Better approach
-    def increasingTriplet(self, nums: List[int]) -> bool:
+    # Extra Space
+    def increasingTriplet_2(self, nums: List[int]) -> bool:
         n = len(nums)
         if n < 3:
             return False
