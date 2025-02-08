@@ -1,6 +1,7 @@
 class Solution:
 
-    def increasingTriplet(self, nums: List[int]) -> bool:
+    # Greedy Optimal 
+    def increasingTriplet_12(self, nums: List[int]) -> bool:
         first_num = second_num = float('inf')
         n = len(nums)
 
@@ -13,6 +14,32 @@ class Solution:
                 return True
 
         return False
+
+
+
+    # Using Two Arrays Better approach
+    def increasingTriplet(self, nums: List[int]) -> bool:
+        n = len(nums)
+        if n < 3:
+            return False
+
+        left_min = [float('inf')] * n
+        right_max = [float('-inf')] * n
+
+        left_min[0] = nums[0]
+        for i in range(1, n):
+            left_min[i] = min(left_min[i - 1], nums[i])
+
+        right_max[-1] = nums[-1]
+        for i in range(n - 2, -1, -1):
+            right_max[i] = max(right_max[i + 1], nums[i])
+
+        for i in range(1, n - 1):
+            if left_min[i] < nums[i] < right_max[i]:
+                return True
+
+        return False
+
 
 
     # Brute force
