@@ -1,5 +1,6 @@
 class Solution:
 
+    # Single Pass
     def maxAscendingSum(self, nums: List[int]) -> int:
         max_sum = cur_sum = nums[0]
 
