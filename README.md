@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Sathish8472/DSA-Problems/tree/master/0027-remove-element) |
 | [0039-combination-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0039-combination-sum) |
+| [0041-first-missing-positive](https://github.com/Sathish8472/DSA-Problems/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0064-minimum-path-sum) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0001-two-sum) |
+| [0041-first-missing-positive](https://github.com/Sathish8472/DSA-Problems/tree/master/0041-first-missing-positive) |
 | [0169-majority-element](https://github.com/Sathish8472/DSA-Problems/tree/master/0169-majority-element) |
 | [1364-tuple-with-same-product](https://github.com/Sathish8472/DSA-Problems/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sathish8472/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
