@@ -1,7 +1,7 @@
 class Solution:
 
     # Single pass count
-    def zeroFilledSubarray2(self, nums: List[int]) -> int:
+    def zeroFilledSubarray(self, nums: List[int]) -> int:
         count = total = 0
 
         for num in nums:
@@ -16,7 +16,7 @@ class Solution:
 
 
     # List to store zero counts
-    def zeroFilledSubarray(self, nums: List[int]) -> int:
+    def zeroFilledSubarray_1(self, nums: List[int]) -> int:
         zeros = []
         count = 0
         for num in nums:
