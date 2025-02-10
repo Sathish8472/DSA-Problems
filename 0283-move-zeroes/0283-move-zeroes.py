@@ -12,6 +12,8 @@ class Solution:
                 )
                 next_non_zero_position += 1
 
+
+
     # Brute force
     def moveZeroes_1(self, nums: List[int]) -> None:
         """
