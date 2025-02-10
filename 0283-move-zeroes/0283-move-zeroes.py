@@ -1,15 +1,16 @@
-class Solution: 
+class Solution:
     # Optimized Solution
     def moveZeroes(self, nums: List[int]) -> None:
 
-        last_non_zero_found = 0;
-        
-        for cur in range(len(nums)):
-            if nums[cur] != 0:
-                nums[last_non_zero_found], nums[cur] = nums[cur], nums[last_non_zero_found]
-                last_non_zero_found += 1
+        next_non_zero_position = 0
 
-
+        for current in range(len(nums)):
+            if nums[current] != 0:
+                nums[next_non_zero_position], nums[current] = (
+                    nums[current],
+                    nums[next_non_zero_position],
+                )
+                next_non_zero_position += 1
 
     # Brute force
     def moveZeroes_1(self, nums: List[int]) -> None:
@@ -25,4 +26,3 @@ class Solution:
 
         for i in range(non_zero_count, len(nums)):
             nums[i] = 0
-        
