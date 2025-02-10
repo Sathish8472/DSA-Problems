@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
+| [3447-clear-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/3447-clear-digits) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/Sathish8472/DSA-Problems/tree/master/0125-valid-palindrome) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sathish8472/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [3447-clear-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/3447-clear-digits) |
 ## Math
 |  |
 | ------- |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Sathish8472/DSA-Problems/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3447-clear-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/3447-clear-digits) |
 ## Design
 |  |
 | ------- |
