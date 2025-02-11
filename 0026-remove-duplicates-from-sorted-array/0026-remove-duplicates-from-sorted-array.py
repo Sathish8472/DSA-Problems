@@ -14,11 +14,13 @@ class Solution:
         return pointer
 
     def removeDuplicates(self, nums: List[int]) -> int:
-
         unique_elements = []
 
-        for num in range(len(nums)):
+        for num in nums:
             if num not in unique_elements:
                 unique_elements.append(num)
 
-        return len(unique_elements) - 1
+        for i in range(len(unique_elements)):
+            nums[i] = unique_elements[i]
+
+        return len(unique_elements)
