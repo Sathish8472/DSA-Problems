@@ -1,5 +1,5 @@
 class Solution:
-    def removeDuplicates_1(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums: List[int]) -> int:
 
         if not nums:
             return 0
@@ -13,7 +13,10 @@ class Solution:
                 
         return pointer
 
-    def removeDuplicates(self, nums: List[int]) -> int:
+
+
+    # Brute force extra space
+    def removeDuplicates_1(self, nums: List[int]) -> int:
         unique_elements = []
 
         for num in nums:
