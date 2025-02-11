@@ -2,7 +2,7 @@ class Solution:
 
     # Efficient Stack Approach
     # Time: O(N), Space: O(N)
-    def removeOccurrences_1(self, s: str, part: str) -> str:
+    def removeOccurrences(self, s: str, part: str) -> str:
         stack = []
 
         for ch in s:
@@ -20,7 +20,7 @@ class Solution:
     # Brute Force
     # Time: O(N * M)
     # Space: O(N)
-    def removeOccurrences(self, s: str, part: str) -> str:
+    def removeOccurrences_1(self, s: str, part: str) -> str:
         while part in s:
             index = s.find(part)  # O(M) time taken
             s = s[:index] + s[index + len(part) :]     # Extra Space for slicing
