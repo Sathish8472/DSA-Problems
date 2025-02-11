@@ -3,7 +3,7 @@ class Solution:
         n = len(s)
         index = 0
 
-        if not s:
+        if n == 0:
             return True
 
         for ch in t:
