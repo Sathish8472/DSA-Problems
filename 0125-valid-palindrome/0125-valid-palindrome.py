@@ -14,6 +14,9 @@ class Solution:
         filtered_chars = "".join(c.lower() for c in s if c.isalnum())
         left, right = 0, len(filtered_chars) - 1
 
+        filtered_chars1 = (c.lower() for c in s if c.isalnum())
+        print(filtered_chars1)
+
         while left < right:
             if filtered_chars[left] != filtered_chars[right]:
                 return False
