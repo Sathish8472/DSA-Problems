@@ -1,39 +1,27 @@
 class Solution:
     def maxNumberOfBalloons2(self, text: str) -> int:
-        hash_map = {}
+        char_count = Counter(text)
+        balloon_count = {"b": 1, "a": 1, "l": 2, "o": 2, "n": 1}
 
-        for ch in "balloon":
-            if ch not in hash_map:
-                hash_map[ch] = 0
+        return min(
+            char_count[ch] // balloon_count[ch] if ch in char_count else 0
+            for ch in balloon_count
+        )
 
-        for ch in text:
-            if ch in hash_map:
-                hash_map[ch] += 1
 
-        print(hash_map)
 
-        count = float('inf')
-
-        for key, value in hash_map.items():
-            val = value 
-
-            if key == 'l' or key == 'o':
-                val = value // 2
-
-            count = min(count, val)
-
-        return count
-
+    # Using Built-in libraries
     def maxNumberOfBalloons2(self, text: str) -> int:
         count = Counter(text)
-        return min(count['b'], count['a'], count['l'] // 2, count['o'] // 2, count['n'])
+        return min(count["b"], count["a"], count["l"] // 2, count["o"] // 2, count["n"])
 
 
 
-    def maxNumberOfBalloons22(self, text: str) -> int:
+    # Using Built-in libraries
+    def maxNumberOfBalloons(self, text: str) -> int:
         balloon_count = Counter("balloon")
         text_count = Counter(text)
-        max_instances = float('inf')
+        max_instances = float("inf")
 
         for char in balloon_count:
             max_instances = min(max_instances, text_count[char] // balloon_count[char])
@@ -43,6 +31,8 @@ class Solution:
 
 
 
+    # Brute Force
+    # Time: O(N ^ 2), Space: O(N)
     def maxNumberOfBalloons(self, text: str) -> int:
         target = "balloon"
         count = 0
@@ -52,5 +42,5 @@ class Solution:
                 pos = text.find(ch)
                 if pos == -1:
                     return count
-                text = text[:pos] + text[pos + 1:]
+                text = text[:pos] + text[pos + 1 :]
             count += 1
