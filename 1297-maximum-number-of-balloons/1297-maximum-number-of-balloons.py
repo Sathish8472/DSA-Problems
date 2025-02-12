@@ -24,13 +24,13 @@ class Solution:
 
         return count
 
-    def maxNumberOfBalloons2(self, text: str) -> int:
+    def maxNumberOfBalloons(self, text: str) -> int:
         count = Counter(text)
         return min(count['b'], count['a'], count['l'] // 2, count['o'] // 2, count['n'])
 
 
 
-    def maxNumberOfBalloons(self, text: str) -> int:
+    def maxNumberOfBalloons22(self, text: str) -> int:
         balloon_count = Counter("balloon")
         text_count = Counter(text)
         max_instances = float('inf')
@@ -39,8 +39,6 @@ class Solution:
             max_instances = min(max_instances, text_count[char] // balloon_count[char])
 
         return max_instances
-
-
 
 
 
