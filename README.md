@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Sathish8472/DSA-Problems/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/Sathish8472/DSA-Problems/tree/master/0125-valid-palindrome) |
 | [0392-is-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0392-is-subsequence) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sathish8472/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -245,4 +246,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0334-increasing-triplet-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0334-increasing-triplet-subsequence) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Sathish8472/DSA-Problems/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
