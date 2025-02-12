@@ -7,33 +7,43 @@
 
 class Solution:
     def findSecretWord(self, words: List[str], master: 'Master') -> None:
-        def pair_matches(a, b):         # count the number of matching characters
-            return sum(c1 == c2 for c1, c2 in zip(a, b))
+        # Helper function to count the number of matching characters between two words
+        def count_matching_chars(word1: str, word2: str) -> int:
+            return sum(c1 == c2 for c1, c2 in zip(word1, word2))
 
-        def most_overlap_word():
-            counts = [[0 for _ in range(26)] for _ in range(6)]     # counts[i][j] is nb of words with char j at index i
+        # Helper function to find the word with the most overlap with other words
+        def find_best_guess(candidates: List[str]) -> str:
+            # Create a frequency count of characters at each position in the words
+            char_frequency = [[0 for _ in range(26)] for _ in range(6)]  # 6 positions, 26 letters
             for word in candidates:
-                for i, c in enumerate(word):
-                    counts[i][ord(c) - ord("a")] += 1
+                for i, char in enumerate(word):
+                    char_frequency[i][ord(char) - ord('a')] += 1
 
-            best_score = 0
+            # Evaluate the word with the highest overlap score
+            best_overlap_score = -1
+            best_guess = ""
             for word in candidates:
-                score = 0
-                for i, c in enumerate(word):
-                    score += counts[i][ord(c) - ord("a")]           # all words with same chars in same positions
-                if score > best_score:
-                    best_score = score
-                    best_word = word
+                overlap_score = sum(char_frequency[i][ord(char) - ord('a')] for i, char in enumerate(word))
+                if overlap_score > best_overlap_score:
+                    best_overlap_score = overlap_score
+                    best_guess = word
 
-            return best_word
+            return best_guess
 
-        candidates = words[:]        # all remaining candidates, initially all words
+        # Start with the full list of words as candidates
+        candidates = words[:]
+
+        # Loop until we either guess the secret word or run out of candidates
         while candidates:
+            # Guess the word with the most overlap with others
+            guess = find_best_guess(candidates)
 
-            s = most_overlap_word()     # guess the word that overlaps with most others
-            matches = master.guess(s)
+            # Make a guess using the Master API
+            matches = master.guess(guess)
 
+            # If we guessed the secret word, we're done
             if matches == 6:
                 return
 
-            candidates = [w for w in candidates if pair_matches(s, w) == matches]   # filter words with same matches
+            # Filter candidates to keep only those with the same number of matching characters as the guess
+            candidates = [word for word in candidates if count_matching_chars(guess, word) == matches]
