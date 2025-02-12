@@ -1,7 +1,7 @@
 class Solution:
 
     # One pass Efficient Approach
-    def maxProfit_22(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: List[int]) -> int:
         max_profit = 0
         min_price = float('inf')
 
@@ -16,22 +16,10 @@ class Solution:
 
     
 
-    def maxProfit(self, prices: List[int]) -> int:
-        n = len(prices)
-        dp = [0] * n
-        min_price = prices[0]
-
-        for i in range(1, n):
-            min_price = min(min_price, prices[i])
-            dp[i] =  max(dp[i - 1], prices[i] - min_price)
-
-        return dp[-1]
-
-
 
     # DP, Not Efficient
     # Time : O(N)
-    def maxProfit33(self, prices: List[int]) -> int:
+    def maxProfit_33(self, prices: List[int]) -> int:
         n = len(prices)
         if n == 0:
             return 0
