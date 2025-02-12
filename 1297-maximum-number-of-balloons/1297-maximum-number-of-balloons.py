@@ -1,5 +1,5 @@
 class Solution:
-    def maxNumberOfBalloons2(self, text: str) -> int:
+    def maxNumberOfBalloons(self, text: str) -> int:
         char_count = Counter(text)
         balloon_count = {"b": 1, "a": 1, "l": 2, "o": 2, "n": 1}
 
@@ -11,14 +11,14 @@ class Solution:
 
 
     # Using Built-in libraries
-    def maxNumberOfBalloons2(self, text: str) -> int:
+    def maxNumberOfBalloons_3(self, text: str) -> int:
         count = Counter(text)
         return min(count["b"], count["a"], count["l"] // 2, count["o"] // 2, count["n"])
 
 
 
     # Using Built-in libraries
-    def maxNumberOfBalloons(self, text: str) -> int:
+    def maxNumberOfBalloons_2(self, text: str) -> int:
         balloon_count = Counter("balloon")
         text_count = Counter(text)
         max_instances = float("inf")
@@ -33,7 +33,7 @@ class Solution:
 
     # Brute Force
     # Time: O(N ^ 2), Space: O(N)
-    def maxNumberOfBalloons(self, text: str) -> int:
+    def maxNumberOfBalloons_1(self, text: str) -> int:
         target = "balloon"
         count = 0
 
