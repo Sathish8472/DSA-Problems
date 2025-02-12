@@ -24,7 +24,7 @@ class Solution:
 
         return count
 
-    def maxNumberOfBalloons(self, text: str) -> int:
+    def maxNumberOfBalloons2(self, text: str) -> int:
         count = Counter(text)
         return min(count['b'], count['a'], count['l'] // 2, count['o'] // 2, count['n'])
 
@@ -43,27 +43,14 @@ class Solution:
 
 
 
-    def maxNumberOfBalloons_1(self, text: str) -> int:
-
-        characterExist = True
+    def maxNumberOfBalloons(self, text: str) -> int:
         target = "balloon"
         count = 0
 
-        while characterExist:
+        while True:
             for ch in target:
-                
-                if text and text.find(ch) != -1:
-                    pos = text.find(ch)
-                    text = text[:pos] + text[pos + 1:len(text)]
-                    print(text)
-                else:
-                    characterExist = False
-                    print("Break --")
+                pos = text.find(ch)
+                if pos == -1:
                     return count
-                print(ch)
-
+                text = text[:pos] + text[pos + 1:]
             count += 1
-            print("Count", count)
-        
-        return count
-        
