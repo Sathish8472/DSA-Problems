@@ -1,13 +1,17 @@
 class Solution:
+
+    # In-place
+    def reverseWords_2(self, s: str) -> str:
+        s = s.strip()
+        s = list(s)
+        self.reverse(s, 0, len(s) - 1)
+        print(s)
+
+    # Brute
+    def reverseWords_1(self, s: str) -> str:
+        words = [word for word in s.split(" ") if word]
+        return " ".join(reversed(words))
+
+
     def reverseWords(self, s: str) -> str:
-        result = s.split(" ")
-
-        r = []
-        for i in range(len(result)):
-            if result[i].strip() != "":
-                r.append(result[i].strip())
-
-        r.reverse()
-        print(result)
-        
-        return " ".join(r)
+        return " ".join(reversed(s.split()))
