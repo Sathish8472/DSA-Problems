@@ -1,8 +1,78 @@
 class Solution:
+    def check(self, nums: List[int]) -> bool:
+        n = len(nums)
+        count = 0
+
+        for i in range(n):
+            if nums[i] > nums[(i + 1) % n]:
+                count += 1
+            if count > 1:
+                return False
+            
+        print(count)
+        return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     """
     Optimised: O(N)
     """
-    def check(self, nums: List[int]) -> bool:
+    def check3(self, nums: List[int]) -> bool:
         n = len(nums)
         break_count = 0
 
@@ -17,11 +87,10 @@ class Solution:
         return True
 
 
-"""
-Brute Force: O(N ^ 2)
-"""
-class Solution1:
-    def check(self, nums: List[int]) -> bool:
+    """
+    Brute Force: O(N ^ 2)
+    """
+    def check2(self, nums: List[int]) -> bool:
         n = len(nums)
         sorted_nums = sorted(nums)
 
