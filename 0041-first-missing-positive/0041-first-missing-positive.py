@@ -12,6 +12,9 @@ class Solution:
                 return i
 
         return n + 1
+
+
+
     
     # Hashing Approach
     # Extra Space
@@ -24,6 +27,7 @@ class Solution:
         return expected
 
         
+
     # Brute force
     # Sorting Approach (Not Optimal for Large Arrays)
     def firstMissingPositive_1(self, nums: List[int]) -> int:
@@ -33,3 +37,13 @@ class Solution:
             if num == expected:
                 expected += 1
         return expected
+    
+
+
+    def firstMissingPositive1(self, nums: List[int]) -> int:
+        i = 1
+        while True:
+            if i not in nums:
+                return i
+            i +=1
+
