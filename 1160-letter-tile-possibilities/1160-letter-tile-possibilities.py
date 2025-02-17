@@ -1,7 +1,6 @@
 class Solution:
     def numTilePossibilities(self, tiles: str) -> int:
         count = Counter(tiles)
-        print(count)
 
         def backtrack():
             total = 0
