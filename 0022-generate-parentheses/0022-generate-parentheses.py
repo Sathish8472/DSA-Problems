@@ -1,9 +1,10 @@
 class Solution:
+    
     # Backtracking (Recursive Approach)
     # Time: O(4ⁿ / √n), Space: O(N)
     def generateParenthesis(self, n: int) -> List[str]:
         result = []
-
+     
         def backtrack(current, openCount, closeCount):
             if len(current) == 2 * n:
                 result.append(current)
