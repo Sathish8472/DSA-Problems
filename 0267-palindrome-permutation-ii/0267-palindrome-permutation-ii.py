@@ -12,7 +12,7 @@ class Solution:
             half_chars.extend(
                 [ch] * (count // 2)
             )  
-        print(half_chars)
+        print("half_chars:", half_chars)
 
         def backtrack(start):
             if start == len(half_chars):
