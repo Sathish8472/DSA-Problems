@@ -1,8 +1,13 @@
 class Solution:
+
+    # Backtracking Approach
+    # Time: O(n! + n log n), Space: O(N!)
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         result = []
-        nums.sort()
+        nums.sort()  # O(N Log N)
+        visited = [False] * len(nums)
 
+        # Time O(N!), Space: O(N!)
         def backtrack(curr_perm):
             if len(curr_perm) == len(nums):
                 result.append(curr_perm[:])
@@ -19,6 +24,5 @@ class Solution:
                     curr_perm.pop()
                     visited[i] = False
 
-        visited = [False] * len(nums)
         backtrack([])
         return result
