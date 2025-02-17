@@ -1,7 +1,7 @@
 class Solution:
 
-    def subsets2(self, nums: List[int]) -> List[List[int]]:
-        result = [] 
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        result = []
 
         def backtrack(index, path):
             result.append(path)
@@ -12,7 +12,7 @@ class Solution:
         backtrack(0, [])
         return result
 
-    def subsets(self, nums: List[int]) -> List[List[int]]:
+    def subsets1(self, nums: List[int]) -> List[List[int]]:
         result = []
 
         def backtrack(current, index):
