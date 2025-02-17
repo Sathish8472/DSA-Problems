@@ -1,17 +1,38 @@
 class Solution:
     def generatePalindromes(self, s: str) -> List[str]:
         freq = Counter(s)
-
+        
+        # Step 1: Check if palindrome permutation is possible
         odd_chars = [ch for ch in freq if freq[ch] % 2 == 1]
         if len(odd_chars) > 1:
             return []  # More than one odd character → cannot form a palindrome
+        
+        # Step 2: Prepare half-string and middle character
+        half_chars = "".join(ch * (freq[ch] // 2) for ch in freq)
+        mid_char = odd_chars[0] if odd_chars else ""
+        
+        # Step 3: Generate unique permutations of the half-string
+        unique_permutations = set(permutations(half_chars))
+        
+        # Step 4: Construct full palindromes
+        return ["".join(p) + mid_char + "".join(p[::-1]) for p in unique_permutations]
+
+
+
+    def generatePalindromes2(self, s: str) -> List[str]:
+        freq = Counter(s)
+
+        odd_chars = [ch for ch in freq if freq[ch] % 2 == 1]
+        if len(odd_chars) > 1:
+            return [] 
 
         half_chars = []
         mid_char = odd_chars[0] if odd_chars else ""
         for ch, count in freq.items():
             half_chars.extend(
                 [ch] * (count // 2)
-            )  # Only add half of even count characters
+            )  
+        print(half_chars)
 
         def backtrack(start):
             if start == len(half_chars):
@@ -37,6 +58,8 @@ class Solution:
         result = []
         backtrack(0)
         return result
+
+
 
     def generatePalindromes_1(self, s: str) -> List[str]:
         result = []
