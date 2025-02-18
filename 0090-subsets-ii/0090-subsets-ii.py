@@ -1,8 +1,10 @@
 class Solution:
+
+    # Backtracking
+    # Time: O(2 ^ n), Space: O(N) recursion stack space
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         result = []
         nums.sort()
-        # print(nums)
 
         def backtrack(index, ds):
             result.append(ds[:])
