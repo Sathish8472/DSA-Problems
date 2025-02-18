@@ -279,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0216-combination-sum-iii) |
+| [0254-factor-combinations](https://github.com/Sathish8472/DSA-Problems/tree/master/0254-factor-combinations) |
 | [0267-palindrome-permutation-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0267-palindrome-permutation-ii) |
 | [1160-letter-tile-possibilities](https://github.com/Sathish8472/DSA-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Sathish8472/DSA-Problems/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
