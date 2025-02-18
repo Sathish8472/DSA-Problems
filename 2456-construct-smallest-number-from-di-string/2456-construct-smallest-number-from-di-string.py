@@ -16,6 +16,9 @@ class Solution:
 
         return result
 
+
+        
+
     # Backtracking - NOT Optimal
     # Time: O(N!), Space: O(N) recursive depth stack space
     def smallestNumber_1(self, pattern: str) -> str:
