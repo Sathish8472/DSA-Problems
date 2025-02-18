@@ -12,15 +12,20 @@ class Solution:
         backtrack(0, [])
         return result
 
+
+
+
+
+
     def subsets1(self, nums: List[int]) -> List[List[int]]:
         result = []
 
-        def backtrack(current, index):
+        def backtrack(index, current):
             result.append(current[:])
 
             for i in range(index, len(nums)):
                 current.append(nums[i])
-                backtrack(current, i + 1)
+                backtrack(i + 1, current)
                 current.pop()
 
         backtrack([], 0)
