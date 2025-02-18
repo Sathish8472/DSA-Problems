@@ -1,4 +1,6 @@
 class Solution:
+    # Backtrack
+    # Time: O(9 ^ K), Space: O(K)
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         result = []
 
