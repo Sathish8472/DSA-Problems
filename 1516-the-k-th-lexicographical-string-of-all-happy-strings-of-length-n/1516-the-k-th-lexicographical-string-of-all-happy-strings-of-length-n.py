@@ -1,4 +1,7 @@
 class Solution:
+    # Backtrack
+    # Time: O(2 ^ n * n)
+    # Space: O(N)
     def getHappyString(self, n: int, k: int) -> str:
         result = None
         count = 0
