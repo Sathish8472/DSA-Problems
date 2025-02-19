@@ -10,9 +10,7 @@ class Solution:
             for end in range(start, len(s)):
                 substring = s[start : end + 1]
                 if isPalindrome(substring):
-                    path.append(substring)
-                    backtrack(end + 1, path)
-                    path.pop()
+                    backtrack(end + 1, path + [substring])
 
         def isPalindrome(substring):
             return substring == substring[::-1]
