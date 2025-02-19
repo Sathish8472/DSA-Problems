@@ -22,6 +22,7 @@ class Solution:
 
 
 
+
     def permute1(self, nums: List[int]) -> List[List[int]]:
         result = []
         ds = []
