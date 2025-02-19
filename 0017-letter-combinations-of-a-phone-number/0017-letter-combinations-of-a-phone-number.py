@@ -1,4 +1,7 @@
 class Solution:
+
+    # Backtrack
+    # Time: O(4 ^ n * n), SpacE: O(4 ^ n)
     def letterCombinations(self, digits: str) -> List[str]:
         result = []
 
