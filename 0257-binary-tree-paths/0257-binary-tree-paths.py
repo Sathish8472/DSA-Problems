@@ -15,6 +15,7 @@ class Solution:
         while stack:
             node, path = stack.pop()
 
+            print(path)
             if not node.left and not node.right:
                 result.append(path)
 
