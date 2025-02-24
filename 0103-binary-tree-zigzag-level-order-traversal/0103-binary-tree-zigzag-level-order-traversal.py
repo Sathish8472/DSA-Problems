@@ -33,5 +33,4 @@ class Solution:
             result.append(list(level_nodes))
             left_to_right = not left_to_right
         
-        # print(result)
         return result
