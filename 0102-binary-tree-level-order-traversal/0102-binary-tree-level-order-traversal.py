@@ -9,22 +9,26 @@ class Solution:
         if not root:
             return []
 
-        queue = [root]
+        queue = deque([root])
         result = []
 
         while queue:
             current_level = []
 
             for _ in range(len(queue)):
-                node = queue.pop()
+                node = queue.popleft()
+                print("Current: ", node.val)
 
                 current_level.append(node.val)
-                if node.right:
-                    queue.append(node.right)
                 if node.left:
+                    print("left:", node.left.val)
                     queue.append(node.left)
-
+                if node.right:
+                    print("right:", node.right.val)
+                    queue.append(node.right)
                 
+
+            print(current_level)
             result.append(current_level)
 
         return result
