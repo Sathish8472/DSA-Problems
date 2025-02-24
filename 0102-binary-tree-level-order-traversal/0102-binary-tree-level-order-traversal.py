@@ -10,20 +10,22 @@ class Solution:
             return []
 
         queue = deque([root])
-        result = []
+        result =  []
 
         while queue:
-            current_nodes  = []
+            current_len = len(queue)
+            current_nodes = []
 
-            for _ in range(len(queue)):
+            for _ in range(current_len):
                 node = queue.popleft()
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-
+                
                 current_nodes.append(node.val)
 
             result.append(current_nodes)
-
+        
         return result
+        
