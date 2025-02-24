@@ -13,19 +13,17 @@ class Solution:
         result = []
 
         while queue:
-            current_size = len(queue)
-            current_nodes = []
+            current_nodes  = []
 
-            for _ in range(current_size):
+            for _ in range(len(queue)):
                 node = queue.popleft()
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-                
+
                 current_nodes.append(node.val)
 
             result.append(current_nodes)
 
         return result
-        
