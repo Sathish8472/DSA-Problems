@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
+| [0094-binary-tree-inorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0101-symmetric-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
@@ -402,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0102-binary-tree-level-order-traversal) |
@@ -423,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0102-binary-tree-level-order-traversal) |
