@@ -5,6 +5,9 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+
+    # Recursive Inorder Traversal with Early Stop
+    # Time: O(k), Space: O(H)
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         result = None
 
