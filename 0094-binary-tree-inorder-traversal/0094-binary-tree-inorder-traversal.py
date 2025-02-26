@@ -5,6 +5,8 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    # Recursive approach
+    # Time: O(N), Space: O(N)
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
             return []
@@ -14,15 +16,11 @@ class Solution:
 
         def dfs(node):
             if not node:
-                return
+                return None
 
-            if node.left:
-                dfs(node.left)
-
+            dfs(node.left)
             result.append(node.val)
-
-            if node.right:
-                dfs(node.right)
+            dfs(node.right)
 
         dfs(root)
         return result
