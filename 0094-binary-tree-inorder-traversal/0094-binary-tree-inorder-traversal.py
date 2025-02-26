@@ -8,19 +8,13 @@ class Solution:
     # Recursive approach
     # Time: O(N), Space: O(N)
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        if not root:
-            return []
-
-        stack = [root]
         result = []
 
         def dfs(node):
-            if not node:
-                return None
-
-            dfs(node.left)
-            result.append(node.val)
-            dfs(node.right)
+            if node:
+                dfs(node.left)
+                result.append(node.val)
+                dfs(node.right)
 
         dfs(root)
         return result
