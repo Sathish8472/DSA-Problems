@@ -5,6 +5,8 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+
+    # Recursion
     def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
@@ -13,18 +15,16 @@ class Solution:
         def helper(node, cur_max, cur_min):
             nonlocal result
             if not node:
-                return
-            print("node val: ", node.val)
+                return cur_max - cur_min
            
-            result = max(result, abs(cur_max - node.val), abs(cur_min - node.val))
-            print("Max:", cur_max, ", Min: ", cur_min)
-            
             cur_max = max(cur_max, node.val)
             cur_min = min(cur_min, node.val)
-            helper(node.left, cur_max, cur_min)
-            helper(node.right, cur_max, cur_min)
 
-        helper(root, root.val, root.val)
-        return result
+            left = helper(node.left, cur_max, cur_min)
+            right = helper(node.right, cur_max, cur_min)
+            
+            return max(left, right)
+
+        return helper(root, root.val, root.val)
 
         
