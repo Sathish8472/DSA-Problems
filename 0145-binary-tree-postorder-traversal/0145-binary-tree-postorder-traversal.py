@@ -10,17 +10,15 @@ class Solution:
             return []
 
         result = []
+
         def postOrder(node):
             nonlocal result
             if not node:
                 return
-            
+
             postOrder(node.left)
             postOrder(node.right)
             result.append(node.val)
-        
+
         postOrder(root)
         return result
-
-    
-        
