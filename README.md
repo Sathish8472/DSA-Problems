@@ -326,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/Sathish8472/DSA-Problems/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0392-is-subsequence) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
+| [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
 | [1160-letter-tile-possibilities](https://github.com/Sathish8472/DSA-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1297-maximum-number-of-balloons](https://github.com/Sathish8472/DSA-Problems/tree/master/1297-maximum-number-of-balloons) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Sathish8472/DSA-Problems/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
+| [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
 ## Data Stream
 |  |
 | ------- |
@@ -499,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0222-count-complete-tree-nodes) |
+| [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -511,4 +514,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Sathish8472/DSA-Problems/tree/master/0173-binary-search-tree-iterator) |
+## Sliding Window
+|  |
+| ------- |
+| [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
+## Rolling Hash
+|  |
+| ------- |
+| [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
+## Suffix Array
+|  |
+| ------- |
+| [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
 <!---LeetCode Topics End-->
