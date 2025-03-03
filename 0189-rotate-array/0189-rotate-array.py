@@ -1,6 +1,6 @@
 class Solution:
     # In-Place Reversal Efficient
-    def rotated(self, nums: List[int], k: int) -> None:
+    def rotate(self, nums: List[int], k: int) -> None:
         n = len(nums)
         k = k % n          # Handle edge case
 
