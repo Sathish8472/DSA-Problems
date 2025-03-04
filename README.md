@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/Sathish8472/DSA-Problems/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0220-contains-duplicate-iii) |
 | [0238-product-of-array-except-self](https://github.com/Sathish8472/DSA-Problems/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/Sathish8472/DSA-Problems/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0334-increasing-triplet-subsequence) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Sathish8472/DSA-Problems/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/Sathish8472/DSA-Problems/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Sathish8472/DSA-Problems/tree/master/0217-contains-duplicate) |
+| [0220-contains-duplicate-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0220-contains-duplicate-iii) |
 | [2447-merge-similar-items](https://github.com/Sathish8472/DSA-Problems/tree/master/2447-merge-similar-items) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sathish8472/DSA-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0220-contains-duplicate-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0220-contains-duplicate-iii) |
 | [2434-design-a-number-container-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2434-design-a-number-container-system) |
 | [2447-merge-similar-items](https://github.com/Sathish8472/DSA-Problems/tree/master/2447-merge-similar-items) |
 ## Greedy
@@ -527,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0220-contains-duplicate-iii) |
 | [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
 ## Rolling Hash
 |  |
@@ -536,4 +540,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
+## Bucket Sort
+|  |
+| ------- |
+| [0220-contains-duplicate-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0220-contains-duplicate-iii) |
 <!---LeetCode Topics End-->
