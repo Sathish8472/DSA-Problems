@@ -1,5 +1,7 @@
 class Solution:
 
+    # Sliding Window / Set
+    # Time: O(N), space: O(k)
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         numSet = set()
 
