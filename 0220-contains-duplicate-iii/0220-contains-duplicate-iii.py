@@ -1,6 +1,38 @@
 class Solution:
 
-    def containsNearbyAlmostDuplicate(self, nums: List[int], indexDiff: int, valueDiff: int):
+    # Bucket Sort (HashMap)
+    def containsNearbyAlmostDuplicate(self, nums: List[int], indexDiff: int, valueDiff: int) -> bool:
+        if valueDiff < 0:
+            return False
+
+        bucket = {}  # Dictionary to store elements in buckets
+        bucket_size = valueDiff + 1  # Size of each bucket
+
+        for i, num in enumerate(nums):
+            bucket_key = num // bucket_size
+
+            # Check if the current bucket already has an element
+            if bucket_key in bucket:
+                return True
+            
+            # Check adjacent buckets for close elements
+            if bucket_key - 1 in bucket and abs(num - bucket[bucket_key - 1]) <= valueDiff:
+                return True
+            if bucket_key + 1 in bucket and abs(num - bucket[bucket_key + 1]) <= valueDiff:
+                return True
+
+            # Insert current number into its bucket
+            bucket[bucket_key] = num
+
+            # Maintain window size by removing old elements
+            if i >= indexDiff:
+                del bucket[nums[i - indexDiff] // bucket_size]
+
+        return False
+
+
+    # SortedList (Binary Search)
+    def containsNearbyAlmostDuplicate2(self, nums: List[int], indexDiff: int, valueDiff: int):
 
         if valueDiff < 0:
             return False
