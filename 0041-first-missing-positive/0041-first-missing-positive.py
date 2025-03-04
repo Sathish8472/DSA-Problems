@@ -35,12 +35,12 @@ class Solution:
         expected = 1
         for num in nums:
             if num == expected:
-                expected += 1
+                expected += 1           # Adding 1
         return expected
     
 
 
-    def firstMissingPositive1(self, nums: List[int]) -> int:
+    def firstMissingPositive11(self, nums: List[int]) -> int:
         i = 1
         while True:
             if i not in nums:
