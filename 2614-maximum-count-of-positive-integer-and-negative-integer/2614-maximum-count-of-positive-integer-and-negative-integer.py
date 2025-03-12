@@ -1,9 +1,36 @@
 class Solution:
 
-
+    # Binary Search implementatin - OPTIMAL
+    # Time: O(Log N)
     def maximumCount(self, nums: List[int]) -> int:
-        if not nums:
-            return 0
+        pos_count, neg_count = 0, 0
+
+        def findPos(num):
+            left, right = 0, len(nums)
+
+            while left < right:
+                mid = (left + right) // 2
+
+                if nums[mid] < num:
+                    left = mid + 1
+                else:
+                    right = mid
+
+            return left
+
+        pos_index = findPos(1)
+        neg_index = findPos(0)
+
+        pos_count = len(nums) - pos_index
+        neg_count = neg_index
+        print(f"pos: {pos_count}, neg: {neg_count}")
+        return max(pos_count, neg_count)
+
+
+
+    # Binary Search using Bisect - OPTIMAL
+    # Time: O(log N), Space: constant
+    def maximumCount_1(self, nums: List[int]) -> int:
 
         neg_count = bisect.bisect_left(nums, 0)
         pos_count = bisect.bisect_right(nums, 0)
@@ -11,8 +38,6 @@ class Solution:
         pos_count = len(nums) - pos_count
         print(f"pos: {pos_count}, neg: {neg_count}")
         return max(pos_count, neg_count)
-
-
 
     # Two pointer technique
     # time: O(N), Space: O(1)
