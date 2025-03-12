@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1524-string-matching-in-an-array) |
 | [1559-cherry-pickup-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/1559-cherry-pickup-ii) |
+| [1603-running-sum-of-1d-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1635-number-of-good-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/1635-number-of-good-pairs) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Sathish8472/DSA-Problems/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Sathish8472/DSA-Problems/tree/master/0303-range-sum-query-immutable) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Sathish8472/DSA-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1603-running-sum-of-1d-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/Sathish8472/DSA-Problems/tree/master/2145-grid-game) |
