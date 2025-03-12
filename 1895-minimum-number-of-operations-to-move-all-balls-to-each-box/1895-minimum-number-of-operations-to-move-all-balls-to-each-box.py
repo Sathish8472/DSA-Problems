@@ -1,21 +1,15 @@
 class Solution:
-    def minOperations(self, boxes: str) -> List[int]:
-        answer = [0] * len(boxes)
-        temp = []
+    def minOperations(self, boxes: str) -> List[int]:   
+        n = len(boxes)
+        answer = [0] * n
+        ones_indices = [i for i in range(n) if boxes[i] == '1']
 
-        for i in range(len(boxes)):
-            if boxes[i] == '1':
-                temp.append(i)
-            
-        print("temp: ", temp)
-
-        for i in range(len(boxes)):
+        for i in range(n):
             operations = 0
-            for j in temp:
+            for j in ones_indices:
                 if i != j:
-                # print(f"i: {i}, j: {j}")
                     operations += abs(i - j)
-            
+
             answer[i] = operations
 
         return answer
