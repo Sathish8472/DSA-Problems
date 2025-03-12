@@ -580,4 +580,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1524-string-matching-in-an-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1524-string-matching-in-an-array) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/Sathish8472/DSA-Problems/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
