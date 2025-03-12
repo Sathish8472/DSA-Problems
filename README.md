@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sathish8472/DSA-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1635-number-of-good-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/1635-number-of-good-pairs) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sathish8472/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2434-design-a-number-container-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2434-design-a-number-container-system) |
 | [2447-merge-similar-items](https://github.com/Sathish8472/DSA-Problems/tree/master/2447-merge-similar-items) |
 | [2448-count-number-of-bad-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/2448-count-number-of-bad-pairs) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0222-count-complete-tree-nodes) |
 | [0260-single-number-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0260-single-number-iii) |
 | [0338-counting-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/0338-counting-bits) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Sathish8472/DSA-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2792-neighboring-bitwise-xor](https://github.com/Sathish8472/DSA-Problems/tree/master/2792-neighboring-bitwise-xor) |
 ## Brainteaser
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/Sathish8472/DSA-Problems/tree/master/0303-range-sum-query-immutable) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/Sathish8472/DSA-Problems/tree/master/2145-grid-game) |
 ## Depth-First Search
 |  |
@@ -366,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-merge-strings-alternately](https://github.com/Sathish8472/DSA-Problems/tree/master/1894-merge-strings-alternately) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sathish8472/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Sathish8472/DSA-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3447-clear-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/3447-clear-digits) |
