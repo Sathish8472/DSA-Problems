@@ -265,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Sathish8472/DSA-Problems/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Sathish8472/DSA-Problems/tree/master/0303-range-sum-query-immutable) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/1477-product-of-the-last-k-numbers) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Sathish8472/DSA-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/Sathish8472/DSA-Problems/tree/master/2145-grid-game) |
@@ -366,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sathish8472/DSA-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Sathish8472/DSA-Problems/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1524-string-matching-in-an-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1524-string-matching-in-an-array) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Sathish8472/DSA-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1894-merge-strings-alternately](https://github.com/Sathish8472/DSA-Problems/tree/master/1894-merge-strings-alternately) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sathish8472/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
