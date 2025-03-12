@@ -31,7 +31,7 @@ class Solution:
         print(f"pos: {pos}, neg: {neg}")
         return max(pos, neg)
 
-    def maximumCount1(self, nums: List[int]) -> int:
+    def maximumCount(self, nums: List[int]) -> int:
         pos_count = 0
         neg_count = 0
 
@@ -44,7 +44,7 @@ class Solution:
         print(f"pos: {pos_count}, neg: {neg_count}")
         return max(pos_count, neg_count)
     
-    def maximumCount(self, nums: List[int]) -> int:
+    def maximumCount_1(self, nums: List[int]) -> int:
         
         pos_count = sum(1 for num in nums if num > 0)
         neg_count = sum(1 for num in nums if num < 0)
