@@ -11,10 +11,19 @@ class Solution:
             else:
                 hashmap[num] += 1
 
-        print(hashmap)
+        for count in hashmap.values():
+            if count % 2 != 0:
+                return False
 
-        pair_count += sum(value // 2 for value in hashmap.values())
-        if pair_count == total_pairs:
-            return True
+        return True
 
-        return False
+    def divideArray2(self, nums: List[int]) -> bool:
+        count = Counter(nums)
+
+        print(count)
+
+        for value in count.values():
+            if value % 2 != 0:
+                return False
+
+        return True
