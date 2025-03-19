@@ -7,6 +7,17 @@ class Solution:
         visited = [[0] * col_len for _ in range(row_len)]
         directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
+
+        def dfs(row, col):
+            visited[row][col] = 1
+
+            for dr, dc in directions:
+                nrow, ncol = row + dr, col + dc
+                if 0 <= nrow < row_len and 0 <= ncol < col_len and grid[nrow][ncol] == "1" and not visited[nrow][ncol]:
+                    dfs(nrow, ncol)
+
+
+
         def bfs(row, col):
             queue = deque()
             queue.append((row, col))
@@ -26,7 +37,7 @@ class Solution:
             for j in range(col_len):
                 if grid[i][j] == "1" and not visited[i][j]:
                     count += 1
-                    bfs(i, j)
+                    dfs(i, j)
 
             
         
