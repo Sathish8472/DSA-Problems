@@ -1,6 +1,29 @@
 class Solution:
 
     def minOperations(self, nums: List[int]) -> int:
+        n = len(nums)
+
+        zero_count = nums.count(0)
+        if zero_count == 0:
+            return 0
+
+        count = 0
+        left = 0
+        while left <= n - 3:
+            if nums[left] == 0:
+                for i in range(left, left + 3):
+                    nums[i] ^= 1
+                
+                count += 1
+            
+            left += 1
+
+        if n == sum(1 for num in nums if num == 1):
+            return count
+
+        return -1
+
+    def minOperations2(self, nums: List[int]) -> int:
         count = 0
         n = len(nums)
 
