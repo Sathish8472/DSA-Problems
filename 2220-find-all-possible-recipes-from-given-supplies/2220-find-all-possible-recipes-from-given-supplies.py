@@ -1,4 +1,5 @@
 class Solution:
+    # Topological sorting - Graph + BFS approach
     def findAllRecipes(self, recipes: List[str], ingredients: List[List[str]], supplies: List[str]) -> List[str]:
         remaining_ingredients = {}
         needed_for = {}
