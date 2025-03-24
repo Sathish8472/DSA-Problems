@@ -437,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/Sathish8472/DSA-Problems/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Sathish8472/DSA-Problems/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0062-unique-paths) |
@@ -535,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/0002-add-two-numbers) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0237-delete-node-in-a-linked-list) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
@@ -677,4 +679,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/Sathish8472/DSA-Problems/tree/master/0346-moving-average-from-data-stream) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
