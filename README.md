@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/Sathish8472/DSA-Problems/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Sathish8472/DSA-Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/Sathish8472/DSA-Problems/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/Sathish8472/DSA-Problems/tree/master/0041-first-missing-positive) |
@@ -397,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/Sathish8472/DSA-Problems/tree/master/0006-zigzag-conversion) |
+| [0013-roman-to-integer](https://github.com/Sathish8472/DSA-Problems/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Sathish8472/DSA-Problems/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Sathish8472/DSA-Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Sathish8472/DSA-Problems/tree/master/0022-generate-parentheses) |
@@ -433,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Sathish8472/DSA-Problems/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0062-unique-paths) |
 | [0189-rotate-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0189-rotate-array) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
