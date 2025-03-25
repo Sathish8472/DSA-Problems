@@ -6,10 +6,24 @@
 
 class Solution:
 
+    # Optimal - Two Pointers
+    # time: O(M + n), Space: O(1)
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+        if not headA or not headB:
+            return None
+        
+        pA, pB = headA, headB
+
+        while pA != pB:
+            pA = pA.next if pA else headB
+            pB = pB.next if pB else headA
+        
+        return pA
+
     
     # Better
     # time: O(M + N), Space: O(M)
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+    def getIntersectionNode_2(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         visited = set()
 
         while headA:
