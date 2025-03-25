@@ -6,6 +6,21 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
+
+        slowp = head
+        fastp = head
+
+        while fastp and fastp.next:
+            slowp = slowp.next
+            fastp = fastp.next.next
+            
+            if slowp == fastp:
+                return True
+            
+        return False
+    
+
+    def hasCycle_1(self, head: Optional[ListNode]) -> bool:
         nodeSet = set()
 
         temp = head
