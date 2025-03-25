@@ -16,7 +16,7 @@ class Solution:
             prev = temp
             temp = front
 
-        return head
+        return prev
 
 
 
