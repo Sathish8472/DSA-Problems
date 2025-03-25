@@ -5,6 +5,29 @@
 #         self.next = next
 class Solution:
 
+    def addHelper(self, temp: ListNode) -> int:
+        if temp is None:
+            return 1
+        
+        carry = self.addHelper(temp.next)
+        temp.val += carry
+
+        if temp.val < 10:
+            return 0
+        
+        temp.val = 0
+        return 1
+
+    def plusOne(self, head: ListNode) -> ListNode:
+        carry = self.addHelper(head)
+
+        if carry == 1:
+            newNode = ListNode(1)
+            newNode.next = head
+            head = newNode
+        
+        return head
+
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         prev = None
         current = head
@@ -17,7 +40,9 @@ class Solution:
         
         return prev
 
-    def plusOne(self, head: ListNode) -> ListNode:
+
+    # Brute force
+    def plusOne_1(self, head: ListNode) -> ListNode:
 
         head = self.reverseList(head)
 
