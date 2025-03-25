@@ -12,8 +12,17 @@ class Solution:
 
         return slow
 
-    
     def middleNode(self, head):
+        slow = fast = head
+        
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        
+        return slow
+    
+    # Brute
+    def middleNode_1(self, head):
         counter = 0
 
         temp = head
