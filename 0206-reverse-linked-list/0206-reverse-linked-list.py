@@ -5,7 +5,23 @@
 #         self.next = next
 class Solution:
 
+    # Recursive Approach
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head or not head.next:
+            return head
+        
+        newHead = self.reverseList(head.next)
+        front = head.next
+        front.next = head
+        head.next = None
+
+        return newHead
+
+
+
+
+    # Iterative approach
+    def reverseList_2(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
         temp = head
         prev = None
@@ -24,7 +40,7 @@ class Solution:
 
     # Stack Approach
     # Time: O(N), Space: O(N)
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def reverseList_1(self, head: Optional[ListNode]) -> Optional[ListNode]:
         stack = []
         temp = head
 
