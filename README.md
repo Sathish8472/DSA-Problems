@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Sathish8472/DSA-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2145-grid-game](https://github.com/Sathish8472/DSA-Problems/tree/master/2145-grid-game) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Sathish8472/DSA-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Sathish8472/DSA-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/2308-divide-array-into-equal-pairs) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-cherry-pickup-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/1559-cherry-pickup-ii) |
 | [1876-map-of-highest-peak](https://github.com/Sathish8472/DSA-Problems/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/Sathish8472/DSA-Problems/tree/master/2145-grid-game) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Sathish8472/DSA-Problems/tree/master/2685-first-completely-painted-row-or-column) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Shortest Path
@@ -403,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0220-contains-duplicate-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0220-contains-duplicate-iii) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [1483-rank-teams-by-votes](https://github.com/Sathish8472/DSA-Problems/tree/master/1483-rank-teams-by-votes) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2447-merge-similar-items](https://github.com/Sathish8472/DSA-Problems/tree/master/2447-merge-similar-items) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sathish8472/DSA-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -461,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1635-number-of-good-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/1635-number-of-good-pairs) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Sathish8472/DSA-Problems/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/Sathish8472/DSA-Problems/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/2448-count-number-of-bad-pairs) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Sathish8472/DSA-Problems/tree/master/2649-count-total-number-of-colored-cells) |
