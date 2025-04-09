@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/Sathish8472/DSA-Problems/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Sathish8472/DSA-Problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2591-frog-jump-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/2591-frog-jump-ii) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sathish8472/DSA-Problems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Sathish8472/DSA-Problems/tree/master/2665-minimum-time-to-repair-cars) |
 | [2681-put-marbles-in-bags](https://github.com/Sathish8472/DSA-Problems/tree/master/2681-put-marbles-in-bags) |
@@ -588,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0484-find-permutation](https://github.com/Sathish8472/DSA-Problems/tree/master/0484-find-permutation) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2591-frog-jump-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/2591-frog-jump-ii) |
 | [2681-put-marbles-in-bags](https://github.com/Sathish8472/DSA-Problems/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Sathish8472/DSA-Problems/tree/master/3001-apply-operations-to-maximize-score) |
 ## Trie
@@ -704,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0222-count-complete-tree-nodes) |
 | [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Sathish8472/DSA-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [2591-frog-jump-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/2591-frog-jump-ii) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sathish8472/DSA-Problems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Sathish8472/DSA-Problems/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/Sathish8472/DSA-Problems/tree/master/2690-house-robber-iv) |
