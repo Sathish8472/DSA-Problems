@@ -512,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1635-number-of-good-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/1635-number-of-good-pairs) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Sathish8472/DSA-Problems/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2050-count-good-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/Sathish8472/DSA-Problems/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/2448-count-number-of-bad-pairs) |
@@ -781,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0234-palindrome-linked-list) |
 | [1013-fibonacci-number](https://github.com/Sathish8472/DSA-Problems/tree/master/1013-fibonacci-number) |
+| [2050-count-good-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/2050-count-good-numbers) |
 ## Merge Sort
 |  |
 | ------- |
