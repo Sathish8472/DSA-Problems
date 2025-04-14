@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0484-find-permutation](https://github.com/Sathish8472/DSA-Problems/tree/master/0484-find-permutation) |
 | [0485-max-consecutive-ones](https://github.com/Sathish8472/DSA-Problems/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0494-target-sum) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
 | [0854-making-a-large-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0377-combination-sum-iv](https://github.com/Sathish8472/DSA-Problems/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0494-target-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Sathish8472/DSA-Problems/tree/master/1013-fibonacci-number) |
@@ -541,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0254-factor-combinations](https://github.com/Sathish8472/DSA-Problems/tree/master/0254-factor-combinations) |
 | [0257-binary-tree-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0257-binary-tree-paths) |
 | [0267-palindrome-permutation-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0267-palindrome-permutation-ii) |
+| [0494-target-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/Sathish8472/DSA-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Sathish8472/DSA-Problems/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Sathish8472/DSA-Problems/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
