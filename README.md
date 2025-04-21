@@ -518,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Sathish8472/DSA-Problems/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Sathish8472/DSA-Problems/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/Sathish8472/DSA-Problems/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Sathish8472/DSA-Problems/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0189-rotate-array) |
@@ -802,6 +803,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Sathish8472/DSA-Problems/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/Sathish8472/DSA-Problems/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0394-decode-string) |
