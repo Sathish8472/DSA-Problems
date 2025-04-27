@@ -1,32 +1,33 @@
 class Solution:
-
     def subsets(self, nums: List[int]) -> List[List[int]]:
         result = []
+        n = len(nums)
 
-        def backtrack(index, path):
-            result.append(path)
+        def backtrack(start, current_subset):
+            result.append(current_subset[:])
 
-            for i in range(index, len(nums)):
-                backtrack(i + 1, path + [nums[i]])
+            for i in range(start, n):
+                current_subset.append(nums[i])
+                backtrack(i + 1, current_subset)
+                current_subset.pop()
 
         backtrack(0, [])
         return result
-
-
-
-
-
+    
 
     def subsets1(self, nums: List[int]) -> List[List[int]]:
         result = []
+        n = len(nums)
+        
+        def backtrack(start, current_subset):
+            
+            result.append(current_subset[:])
 
-        def backtrack(index, current):
-            result.append(current[:])
+            for i in range(start, n):
+                current_subset.append(nums[i])
+                backtrack(i + 1, current_subset)
+                current_subset.pop()
 
-            for i in range(index, len(nums)):
-                current.append(nums[i])
-                backtrack(i + 1, current)
-                current.pop()
 
-        backtrack([], 0)
+        backtrack(0, [])
         return result
