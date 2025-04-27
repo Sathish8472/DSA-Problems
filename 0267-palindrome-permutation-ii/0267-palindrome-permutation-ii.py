@@ -1,76 +1,37 @@
 class Solution:
     def generatePalindromes(self, s: str) -> List[str]:
-        freq = Counter(s)
-
-        odd_chars = [ch for ch in freq if freq[ch] % 2 == 1]
-        if len(odd_chars) > 1:
-            return [] 
-
-        half_chars = []
-        mid_char = odd_chars[0] if odd_chars else ""
-        for ch, count in freq.items():
-            half_chars.extend(
-                [ch] * (count // 2)
-            )  
-        print("half_chars:", half_chars)
-
-        def backtrack(start):
-            if start == len(half_chars):
-                result.append(
-                    "".join(half_chars) + mid_char + "".join(half_chars[::-1])
-                )
-                return
-
-            used = set()  # Track used characters at each level
-            for i in range(start, len(half_chars)):
-                if half_chars[i] in used:
-                    continue  # Skip duplicate characters
-                used.add(half_chars[i])
-
-                # Swap and recurse
-                half_chars[start], half_chars[i] = half_chars[i], half_chars[start]
-                backtrack(start + 1)
-                half_chars[start], half_chars[i] = (
-                    half_chars[i],
-                    half_chars[start],
-                )  # Undo swap
-
-        result = []
-        backtrack(0)
-        return result
-
-
-
-    def generatePalindromes_1(self, s: str) -> List[str]:
         result = []
         s = sorted(s)
-        visited = [False] * len(s)
+        n = len(s)
+        visited = [False] * n
 
-        def isPalindrome(str):
+        def isPalindrom(str):
+            
             n = len(str)
-
             for i in range(n // 2):
-                if str[i] != str[n - 1 - i]:
+                if str[i] != str[n - i - 1]:
                     return False
+            
             return True
 
-        def backtrack(curr_str):
-            if len(curr_str) == len(s):
-                str2 = "".join(curr_str)
-                if isPalindrome(str2):
+        def backtrack(current_str):
+
+            if len(current_str) == len(s):
+                str2 = "".join(current_str)
+                if isPalindrom(str2):
                     result.append(str2)
-                    return
+                return 
 
             for i, ch in enumerate(s):
                 if i > 0 and s[i] == s[i - 1] and not visited[i - 1]:
                     continue
-
+                
                 if not visited[i]:
+                    current_str.append(ch)
                     visited[i] = True
-                    curr_str.append(ch)
-                    backtrack(curr_str)
+                    backtrack(current_str)
+                    current_str.pop()
                     visited[i] = False
-                    curr_str.pop()
 
         backtrack([])
         return result
