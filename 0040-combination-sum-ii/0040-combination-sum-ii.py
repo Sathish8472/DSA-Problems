@@ -7,64 +7,55 @@ class Solution:
         self.func(0, target, [], candidates, ans)
         return ans
 
-    
-    def func2(self, ind, nums, current_sub, current_sum, result):
-
+    def func(self, ind, current_sum, current_sub, nums, result):
+        print("Cur: ", current_sum)
         if current_sum < 0:
             return
-        
+
         if current_sum == 0:
             result.append(current_sub[:])
             return
-        
+
         if ind == len(nums):
             return
 
         current_sub.append(nums[ind])
         current_sum -= nums[ind]
-        take = self.func(ind + 1, nums, current_sub, current_sum, result)
+        take = self.func(ind + 1, current_sum, current_sub, nums, result)
         current_sub.pop()
         current_sum += nums[ind]
 
-        no_take = self.func(ind + 1, nums, current_sub, current_sum, result)
+        for i in range(ind + 1, len(nums)):
+            if nums[i] != nums[ind]:
+                self.func(i, current_sum, current_sub, nums, result)
+                break
+        return
 
-        for i in range(ind, len(nums)):
-            num = nums[i]
-
-            if i > ind :
-                return
-
-        return 
-
-    def func(self, ind, sum, nums, candidates, ans):
+    def func2(self, ind, sum, nums, candidates, ans):
         # If the sum is zero, add the current combination to the result
         if sum == 0:
             ans.append(nums[:])
             return
-        
+
         # If the sum is negative or we have exhausted the candidates, return
         if sum < 0 or ind == len(candidates):
             return
-        
+
         # Include the current candidate
         nums.append(candidates[ind])
-        
+
         # Recursively call with updated sum and next index
         self.func(ind + 1, sum - candidates[ind], nums, candidates, ans)
-        
+
         # Backtrack by removing the last added candidate
         nums.pop()
-        
-        # Skip duplicates: if not picking the current candidate, 
+
+        # Skip duplicates: if not picking the current candidate,
         # ensure the next candidate is different
         for i in range(ind + 1, len(candidates)):
             if candidates[i] != candidates[ind]:
                 self.func(i, sum, nums, candidates, ans)
                 break
-
-
-
-
 
     def combinationSum22(self, candidates: List[int], target: int) -> List[List[int]]:
         result = []
