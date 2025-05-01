@@ -1,21 +1,27 @@
 class Solution:
-
-    # Backtracking
-    # Time: O(2 ^ n), Space: O(N) recursion stack space
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         result = []
         nums.sort()
+        self.func(0, nums, [], result)
 
-        def backtrack(index, ds):
-            result.append(ds[:])
-
-            for i in range(index, len(nums)):
-                if i > index and nums[i] == nums[i - 1]:
-                    continue
-
-                ds.append(nums[i])
-                backtrack(i + 1, ds)
-                ds.pop()
-
-        backtrack(0, [])
         return result
+
+    
+    def func(self, ind, nums, current_arr, result):
+        if ind == len(nums):
+            result.append(current_arr[:])
+            return
+
+        current_arr.append(nums[ind])
+        self.func(ind + 1, nums, current_arr, result)
+        current_arr.pop()
+
+        for j in range(ind + 1, len(nums)):
+            if nums[j] != nums[ind]:
+                self.func(j, nums, current_arr, result)
+                return
+
+        self.func(len(nums), nums, current_arr, result)
+            
+        return
+    
