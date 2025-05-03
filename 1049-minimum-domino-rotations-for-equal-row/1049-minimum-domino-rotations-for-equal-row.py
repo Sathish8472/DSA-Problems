@@ -1,5 +1,28 @@
 class Solution:
     def minDominoRotations(self, tops: List[int], bottoms: List[int]) -> int:
+        nums = set()
+        nums.update(tops)
+        nums.update(bottoms)
+        count = float('inf')
+
+        for num in nums:
+            top_count = self._calculate_rotations(num, tops, bottoms)
+            bottom_count = self._calculate_rotations(num, bottoms, tops)
+
+            if top_count >= 0:
+                count = min(count, top_count)
+
+            if bottom_count >= 0:
+                count = min(count, bottom_count)
+
+            print(f"{top_count}, {bottom_count}")
+
+        res = count if count != float('inf') else -1
+
+        return res
+    
+
+    def minDominoRotations1(self, tops: List[int], bottoms: List[int]) -> int:
         n = len(tops)
         top_counts = {}
         bottom_counts = {}
