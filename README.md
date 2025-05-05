@@ -332,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0518-coin-change-ii) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0806-domino-and-tromino-tiling](https://github.com/Sathish8472/DSA-Problems/tree/master/0806-domino-and-tromino-tiling) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Sathish8472/DSA-Problems/tree/master/1013-fibonacci-number) |
