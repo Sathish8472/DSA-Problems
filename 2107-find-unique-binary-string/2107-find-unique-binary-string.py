@@ -1,24 +1,24 @@
 class Solution:
     def findDifferentBinaryString(self, nums: List[str]) -> str:
-        n = len(nums)
+        result = self.func("", nums)
+        return result
+    
+    def func(self, current_string, nums):
+        if len(current_string) == len(nums[0]):
+            if current_string not in nums:
+                return current_string
+            else:
+                return None
 
-        def backtrack(current_string):
+        result = self.func(current_string + '0', nums)
 
-            if len(current_string) == n:
-                if current_string not in nums:
-                    return current_string
-                else:
-                    return None
-            
-            result = backtrack(current_string + '0')
-            if result:
-                return result
-            
-            result = backtrack(current_string + '1')
+        if result:
+            return result
 
-            if result:
-                return result
-            
-            return None
-            
-        return backtrack("")
+        result = self.func(current_string + '1', nums)
+
+        if result:
+            return result
+
+
+        
