@@ -217,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Sathish8472/DSA-Problems/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Sathish8472/DSA-Problems/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/Sathish8472/DSA-Problems/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0820-find-eventual-safe-states](https://github.com/Sathish8472/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0854-making-a-large-island) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0684-redundant-connection](https://github.com/Sathish8472/DSA-Problems/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/Sathish8472/DSA-Problems/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/Sathish8472/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/Sathish8472/DSA-Problems/tree/master/1558-course-schedule-iv) |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0407-trapping-rain-water-ii) |
+| [0744-network-delay-time](https://github.com/Sathish8472/DSA-Problems/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2434-design-a-number-container-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2434-design-a-number-container-system) |
@@ -281,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/Sathish8472/DSA-Problems/tree/master/0744-network-delay-time) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Sathish8472/DSA-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Two Pointers
@@ -404,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/Sathish8472/DSA-Problems/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Sathish8472/DSA-Problems/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/Sathish8472/DSA-Problems/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0820-find-eventual-safe-states](https://github.com/Sathish8472/DSA-Problems/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0854-making-a-large-island) |
