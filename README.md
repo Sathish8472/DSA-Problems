@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1558-course-schedule-iv](https://github.com/Sathish8472/DSA-Problems/tree/master/1558-course-schedule-iv) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Sathish8472/DSA-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Sathish8472/DSA-Problems/tree/master/2121-find-if-path-exists-in-graph) |
+| [2218-paths-in-maze-that-lead-to-same-room](https://github.com/Sathish8472/DSA-Problems/tree/master/2218-paths-in-maze-that-lead-to-same-room) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Sathish8472/DSA-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sathish8472/DSA-Problems/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
