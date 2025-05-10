@@ -1,28 +1,40 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        row_len = len(grid)
-        col_len = len(grid[0])
-        count = 0
+        m = len(grid)
+        n = len(grid[0])
 
-        visited = [[0] * col_len for _ in range(row_len)]
-        directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+        total_islands = 0
+
+        visited = [[0] * n for _ in range(m)]
+        print(visited)
+
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == '1' and not visited[i][j]:
+                    self.bfs(grid, i, j, visited, m, n)
+                    total_islands += 1
+
+        return total_islands
 
 
-        def dfs(row, col):
-            visited[row][col] = 1
+    def dfs(self, grid, row, col, visited, m, n):
+        visited[row][col] = 1
 
-            for dr, dc in directions:
-                nrow, ncol = row + dr, col + dc
-                if 0 <= nrow < row_len and 0 <= ncol < col_len and grid[nrow][ncol] == "1" and not visited[nrow][ncol]:
-                    dfs(nrow, ncol)
+        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+        for dr, dc in directions:
+            nr = row + dr
+            nc = col + dc
 
+            if nr >= 0 and nr < m and nc >= 0 and nc < n and grid[nr][nc] == '1' and visited[nr][nc] != 1:
+                self.dfs(grid, nr, nc, visited, m, n)
 
-
-        def bfs(row, col):
+    
+    def bfs(self, grid, row, col, visited, row_len, col_len):
             queue = deque()
             queue.append((row, col))
             visited[row][col] = 1
             
+            directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
             while queue:
                 r, c = queue.popleft()
 
@@ -33,14 +45,3 @@ class Solution:
                         queue.append((nrow, ncol))
 
 
-        for i in range(row_len):
-            for j in range(col_len):
-                if grid[i][j] == "1" and not visited[i][j]:
-                    count += 1
-                    dfs(i, j)
-
-            
-        
-        return count
-
-        
