@@ -9,7 +9,7 @@ class Solution:
             for j in range(col_len):
                 if (i == 0 or j == 0 or i == row_len - 1 or j == col_len - 1) and grid[i][j] == 1:
                     visited[i][j] = 1
-                    self.bfs(i, j, grid, visited, row_len, col_len) 
+                    self.dfs(i, j, grid, visited, row_len, col_len) 
                     
         count = 0
 
@@ -20,7 +20,18 @@ class Solution:
 
         return count
 
-    
+    def dfs(self, row, col, grid, visited, row_len, col_len):
+        visited[row][col] = 1
+        directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
+
+        for dr, dc in directions:
+            nr = row + dr
+            nc = col + dc
+
+            if 0 <= nr < row_len and 0 <= nc < col_len and grid[nr][nc] == 1 and visited[nr][nc] != 1:
+                self.dfs(nr, nc, grid, visited, row_len, col_len)
+
+
     def bfs(self, row, col, grid, visited, row_len, col_len):
             queue = deque()
             queue.append((row, col))
