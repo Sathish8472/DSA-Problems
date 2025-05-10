@@ -17,14 +17,14 @@ class Solution:
             
             while queue:
                 r, c = queue.popleft()
-                image[r][c] = color
+                result[r][c] = color
 
                 for dr, dc in directions:
                     nr = r + dr
                     nc = c + dc
 
                     if 0 <= nr < row_len and 0 <= nc < col_len and result[nr][nc] == initial_col:
-                        result[nr][nc] = color
+                        # result[nr][nc] = color
                         queue.append((nr, nc))
 
         def dfs(row, col):
