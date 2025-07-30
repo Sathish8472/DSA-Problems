@@ -388,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1666-make-the-string-great](https://github.com/Sathish8472/DSA-Problems/tree/master/1666-make-the-string-great) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2470-removing-stars-from-a-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2470-removing-stars-from-a-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Sathish8472/DSA-Problems/tree/master/3001-apply-operations-to-maximize-score) |
 | [3447-clear-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/3447-clear-digits) |
 ## Monotonic Stack
@@ -560,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Sathish8472/DSA-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Sathish8472/DSA-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2470-removing-stars-from-a-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2470-removing-stars-from-a-string) |
 | [3447-clear-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/3447-clear-digits) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Sathish8472/DSA-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -646,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2048-build-array-from-permutation](https://github.com/Sathish8472/DSA-Problems/tree/master/2048-build-array-from-permutation) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Sathish8472/DSA-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2470-removing-stars-from-a-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2470-removing-stars-from-a-string) |
 | [2551-apply-operations-to-an-array](https://github.com/Sathish8472/DSA-Problems/tree/master/2551-apply-operations-to-an-array) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Sathish8472/DSA-Problems/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
