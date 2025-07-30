@@ -1,26 +1,17 @@
 class Solution:
     def findPermutation(self, s: str) -> List[int]:
-        stack = []
-        i = 1
-        result = []
+        n = len(s) + 1
+        result = list(range(1, n + 1))
+        i = 0
 
-        for ch in s:
-            if ch == "I":
-                stack.append(i)
-                while stack:
-                    result.append(stack.pop())
+        while i < len(s):
+            if s[i] == 'D':
+                start = i
+                while i < len(s) and s[i] == 'D':
+                    i += 1
+                result[start: i + 1] = reversed(result[start:i+1])
             else:
-                stack.append(i)
-            i += 1
-
-        stack.append(i)
-        while stack:
-            result.append(stack.pop())
+                i += 1
 
         return result
-
-
-
-
-
         
