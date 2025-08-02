@@ -11,6 +11,7 @@ class Solution:
                 if isConnected[i][j] == 1:
                     edges[i].append(j)
 
+        print(edges)
         def bfs(node):
             visited[node] = 1
             q = deque()
@@ -20,19 +21,6 @@ class Solution:
                 current_node = q.popleft()
 
                 for neighbor in edges[current_node]:
-                    if visited[neighbor] != 1:
-                        visited[neighbor] = 1
-                        q.append(neighbor)
-
-        def bfs2(node):
-            visited[node] = 1
-            q = deque()
-            q.append(node)
-
-            while q:
-                i = q.popleft()
-
-                for neighbor in edges[node]:
                     if visited[neighbor] != 1:
                         visited[neighbor] = 1
                         q.append(neighbor)
