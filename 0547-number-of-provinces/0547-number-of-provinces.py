@@ -6,10 +6,17 @@ class Solution:
 
         edges = defaultdict(list)
 
+        # Adjacency Matrix representation
         for i in range(n):
             for j in range(n):
                 if isConnected[i][j] == 1:
                     edges[i].append(j)
+
+        # Adjacency Lists
+        # for u, v in edges:
+        #     graph[u].append(v)
+        #     graph[v].append(u)
+
 
         print(edges)
         def bfs(node):
