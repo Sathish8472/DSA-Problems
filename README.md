@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0078-subsets) |
+| [0088-merge-sorted-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -329,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
+| [0088-merge-sorted-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Sathish8472/DSA-Problems/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Sathish8472/DSA-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0142-linked-list-cycle-ii) |
@@ -519,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0015-3sum) |
 | [0047-permutations-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/Sathish8472/DSA-Problems/tree/master/0049-group-anagrams) |
+| [0088-merge-sorted-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0148-sort-list) |
 | [0164-maximum-gap](https://github.com/Sathish8472/DSA-Problems/tree/master/0164-maximum-gap) |
 | [0169-majority-element](https://github.com/Sathish8472/DSA-Problems/tree/master/0169-majority-element) |
