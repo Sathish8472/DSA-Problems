@@ -2,6 +2,7 @@ class Solution:
     def numDistinctIslands(self, grid: List[List[int]]) -> int:
         row_len = len(grid)
         col_len = len(grid[0])
+        
         visited = [[0] * col_len for _ in range(row_len)]
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
         distinct_islands = set()
