@@ -1,31 +1,31 @@
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        
-        m = len(grid)
-        n = len(grid[0])
-        
-        visited = [[0 for _ in range(n)] for _ in range(m)]
-        max_islands = 0
+        row_len = len(grid)
+        col_len = len(grid[0])
 
-        for i in range(m):
-            for j in range(n):
-                if grid[i][j] == 1 and visited[i][j] != 1:
-                    islands = self.dfs(i, j, grid, visited, m, n)
-                    max_islands = max(max_islands, islands)
-        
-        return max_islands
-    
-    def dfs(self, row, col, grid, visited, m, n):
-        visited[row][col] = 1
-        islands = 1
-        
+        visited = [[0] * col_len for _ in range(row_len)]
+
+        island_max_area = 0
+
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
-        for dx, dy in directions:
-            nr = row + dx
-            nc = col + dy
+        def dfs(row, col):
+            visited[row][col] = 1
+            area = 1
 
-            if 0 <= nr < m and 0 <= nc < n and visited[nr][nc] != 1 and grid[nr][nc] == 1:
-                islands += self.dfs(nr, nc, grid, visited, m, n)
+            for dr, dc in directions:
+                nr = row + dr
+                nc = col + dc
 
-        return islands
+                if 0 <= nr < row_len and 0 <= nc < col_len and grid[nr][nc] == 1 and visited[nr][nc] != 1:
+                    area += dfs(nr, nc)
+
+            return area
+
+        for r in range(row_len):
+            for c in range(col_len):
+                if grid[r][c] == 1 and visited[r][c] != 1:
+                    area = dfs(r, c)
+                    island_max_area = max(island_max_area, area)
+
+        return island_max_area
