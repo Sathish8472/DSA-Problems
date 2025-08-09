@@ -6,7 +6,7 @@ class Solution:
 
         directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
 
-        result = [row[:] for row in image]
+        result = image
 
         def bfs(row, col):
             if result[row][col] == color: 
@@ -24,7 +24,6 @@ class Solution:
                     nc = c + dc
 
                     if 0 <= nr < row_len and 0 <= nc < col_len and result[nr][nc] == initial_col:
-                        # result[nr][nc] = color
                         queue.append((nr, nc))
 
         def dfs(row, col):
