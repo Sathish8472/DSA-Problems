@@ -6,18 +6,36 @@ class Solution:
         total_islands = 0
 
         visited = [[0] * n for _ in range(m)]
-        print(visited)
 
         for i in range(m):
             for j in range(n):
                 if grid[i][j] == '1' and not visited[i][j]:
-                    self.bfs(grid, i, j, visited, m, n)
+                    # self.bfs(grid, i, j, visited, m, n)
+                    self.dfs(grid, i, j, visited, m, n)
                     total_islands += 1
 
         return total_islands
 
 
+    # DFS with stack - Iterative
     def dfs(self, grid, row, col, visited, m, n):
+        visited[row][col] = 1
+        stack = [(row, col)]
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+
+        while stack:
+            r, c = stack.pop()
+
+            for dx, dy in directions:
+                nr = r + dx
+                nc = c + dy
+                if 0 <= nr < m and 0 <= nc < n and grid[nr][nc] == '1' and visited[nr][nc] != 1:
+                    visited[nr][nc] = 1
+                    stack.append((nr, nc))
+
+
+    # DFS using Recursion
+    def dfs1(self, grid, row, col, visited, m, n):
         visited[row][col] = 1
 
         directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
@@ -43,5 +61,4 @@ class Solution:
                     if 0 <= nrow < row_len and 0 <= ncol < col_len and grid[nrow][ncol] == "1" and not visited[nrow][ncol]:
                         visited[nrow][ncol] = 1
                         queue.append((nrow, ncol))
-
 
