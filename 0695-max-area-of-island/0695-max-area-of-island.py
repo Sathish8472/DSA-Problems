@@ -25,13 +25,7 @@ class Solution:
         for dr, dc in self.directions:
             nr = row + dr
             nc = col + dc
-
-            if (
-                0 <= nr < row_len
-                and 0 <= nc < col_len
-                and grid[nr][nc] == 1
-                and visited[nr][nc] != 1
-            ):
+            if 0 <= nr < row_len and 0 <= nc < col_len and grid[nr][nc] == 1 and visited[nr][nc] != 1:
                 area += self.dfs(nr, nc, visited, grid, row_len, col_len)
 
         return area
