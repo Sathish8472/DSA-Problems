@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Sathish8472/DSA-Problems/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0518-coin-change-ii) |
+| [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0267-palindrome-permutation-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0267-palindrome-permutation-ii) |
 | [0383-ransom-note](https://github.com/Sathish8472/DSA-Problems/tree/master/0383-ransom-note) |
 | [0652-find-duplicate-subtrees](https://github.com/Sathish8472/DSA-Problems/tree/master/0652-find-duplicate-subtrees) |
+| [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
 | [0694-number-of-distinct-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0694-number-of-distinct-islands) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Sathish8472/DSA-Problems/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Sathish8472/DSA-Problems/tree/master/0684-redundant-connection) |
+| [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Sathish8472/DSA-Problems/tree/master/0733-flood-fill) |
@@ -472,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/Sathish8472/DSA-Problems/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Sathish8472/DSA-Problems/tree/master/0684-redundant-connection) |
+| [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Sathish8472/DSA-Problems/tree/master/0733-flood-fill) |
@@ -817,6 +821,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Sathish8472/DSA-Problems/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0652-find-duplicate-subtrees](https://github.com/Sathish8472/DSA-Problems/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/Sathish8472/DSA-Problems/tree/master/1092-maximum-difference-between-node-and-ancestor) |
