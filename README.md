@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0694-number-of-distinct-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0694-number-of-distinct-islands) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
+| [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/Sathish8472/DSA-Problems/tree/master/1160-letter-tile-possibilities) |
@@ -524,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/Sathish8472/DSA-Problems/tree/master/0383-ransom-note) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
+| [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [1160-letter-tile-possibilities](https://github.com/Sathish8472/DSA-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1297-maximum-number-of-balloons](https://github.com/Sathish8472/DSA-Problems/tree/master/1297-maximum-number-of-balloons) |
@@ -561,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
+| [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [1483-rank-teams-by-votes](https://github.com/Sathish8472/DSA-Problems/tree/master/1483-rank-teams-by-votes) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sathish8472/DSA-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -642,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0826-soup-servings](https://github.com/Sathish8472/DSA-Problems/tree/master/0826-soup-servings) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
+| [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [1013-fibonacci-number](https://github.com/Sathish8472/DSA-Problems/tree/master/1013-fibonacci-number) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/1477-product-of-the-last-k-numbers) |
@@ -965,6 +969,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sathish8472/DSA-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2998-count-symmetric-integers](https://github.com/Sathish8472/DSA-Problems/tree/master/2998-count-symmetric-integers) |
 ## Bitmask
