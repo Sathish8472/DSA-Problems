@@ -18,8 +18,8 @@ class Solution:
 
             return left
 
-        pos_index = findPos(1)
-        neg_index = findPos(0)
+        pos_index = findPos(1)          # O(log n) 
+        neg_index = findPos(0)          # O(log n) 
 
         pos_count = len(nums) - pos_index
         neg_count = neg_index
