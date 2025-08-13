@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0733-flood-fill](https://github.com/Sathish8472/DSA-Problems/tree/master/0733-flood-fill) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/Sathish8472/DSA-Problems/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
 | [0854-making-a-large-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
@@ -875,6 +876,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/Sathish8472/DSA-Problems/tree/master/0035-search-insert-position) |
 | [0222-count-complete-tree-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0222-count-complete-tree-nodes) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/Sathish8472/DSA-Problems/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Sathish8472/DSA-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sathish8472/DSA-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
