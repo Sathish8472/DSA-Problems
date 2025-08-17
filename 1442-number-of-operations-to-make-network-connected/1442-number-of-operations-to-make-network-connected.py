@@ -26,6 +26,7 @@ class DisjointSet:
             self.rank[ulp_u] += 1
 
 class Solution:
+    # Using DFS/BFS
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:
         if len(connections) < n - 1:
             return -1
@@ -41,20 +42,34 @@ class Solution:
 
         def dfs(node):
             visited[node] = True
-
             for neighbor in adj[node]:
                 if not visited[neighbor]:
                     dfs(neighbor)
 
+        def bfs(node):
+            queue = deque()
+            queue.append(node)
+
+            while queue:
+                curr = queue.popleft()
+                visited[curr] = True
+
+                for neighbor in adjNode[curr]:
+                    if not visited[neighbor]:
+                        queue.append(neighbor)
+                
+
         for i in range(n):
             if not visited[i]:
                 numberOfConnectedComponents += 1
+                # dfs(i)
                 dfs(i)
         
         return numberOfConnectedComponents - 1
 
 
 
+    # Using Disjoint Set
 
     def makeConnected1(self, n: int, connections: List[List[int]]) -> int:
         size = len(connections)
