@@ -27,6 +27,36 @@ class DisjointSet:
 
 class Solution:
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:
+        if len(connections) < n - 1:
+            return -1
+        
+        adj = [[] for _ in range(n)]
+
+        for u, v in connections:
+            adj[u].append(v)
+            adj[v].append(u)
+        
+        numberOfConnectedComponents = 0
+        visited = [False for _ in range(n)]
+
+        def dfs(node):
+            visited[node] = True
+
+            for neighbor in adj[node]:
+                if not visited[neighbor]:
+                    dfs(neighbor)
+
+        for i in range(n):
+            if not visited[i]:
+                numberOfConnectedComponents += 1
+                dfs(i)
+        
+        return numberOfConnectedComponents - 1
+
+
+
+
+    def makeConnected1(self, n: int, connections: List[List[int]]) -> int:
         size = len(connections)
 
         if size < n - 1:
