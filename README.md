@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Sathish8472/DSA-Problems/tree/master/0733-flood-fill) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Sathish8472/DSA-Problems/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
 | [0694-number-of-distinct-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0694-number-of-distinct-islands) |
+| [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
 | [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Sathish8472/DSA-Problems/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/Sathish8472/DSA-Problems/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -489,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0694-number-of-distinct-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Sathish8472/DSA-Problems/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/Sathish8472/DSA-Problems/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -517,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/Sathish8472/DSA-Problems/tree/master/0684-redundant-connection) |
 | [0694-number-of-distinct-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/Sathish8472/DSA-Problems/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [1073-number-of-enclaves](https://github.com/Sathish8472/DSA-Problems/tree/master/1073-number-of-enclaves) |
@@ -574,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Sathish8472/DSA-Problems/tree/master/0368-largest-divisible-subset) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [1483-rank-teams-by-votes](https://github.com/Sathish8472/DSA-Problems/tree/master/1483-rank-teams-by-votes) |
@@ -615,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0439-ternary-expression-parser](https://github.com/Sathish8472/DSA-Problems/tree/master/0439-ternary-expression-parser) |
 | [0484-find-permutation](https://github.com/Sathish8472/DSA-Problems/tree/master/0484-find-permutation) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
 | [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
