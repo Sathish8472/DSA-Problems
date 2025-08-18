@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Sathish8472/DSA-Problems/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0540-single-element-in-a-sorted-array) |
+| [0679-24-game](https://github.com/Sathish8472/DSA-Problems/tree/master/0679-24-game) |
 | [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
@@ -662,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Sathish8472/DSA-Problems/tree/master/0368-largest-divisible-subset) |
 | [0369-plus-one-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0369-plus-one-linked-list) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0679-24-game](https://github.com/Sathish8472/DSA-Problems/tree/master/0679-24-game) |
 | [0826-soup-servings](https://github.com/Sathish8472/DSA-Problems/tree/master/0826-soup-servings) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
 | [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
@@ -706,6 +708,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0257-binary-tree-paths) |
 | [0267-palindrome-permutation-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0267-palindrome-permutation-ii) |
 | [0494-target-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0494-target-sum) |
+| [0679-24-game](https://github.com/Sathish8472/DSA-Problems/tree/master/0679-24-game) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1160-letter-tile-possibilities](https://github.com/Sathish8472/DSA-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Sathish8472/DSA-Problems/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
