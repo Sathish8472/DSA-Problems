@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Sathish8472/DSA-Problems/tree/master/0733-flood-fill) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Sathish8472/DSA-Problems/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [0792-binary-search](https://github.com/Sathish8472/DSA-Problems/tree/master/0792-binary-search) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
 | [0854-making-a-large-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
@@ -906,6 +907,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0222-count-complete-tree-nodes) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Sathish8472/DSA-Problems/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [0792-binary-search](https://github.com/Sathish8472/DSA-Problems/tree/master/0792-binary-search) |
 | [1122-longest-duplicate-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/1122-longest-duplicate-substring) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Sathish8472/DSA-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sathish8472/DSA-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
