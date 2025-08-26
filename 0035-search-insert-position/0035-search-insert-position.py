@@ -1,19 +1,23 @@
 class Solution:
 
-    # Binary Search implementation
+    # Binary Search implementationv - Lower bound
     # time: O(Log N)
     def searchInsert(self, nums: List[int], target: int) -> int:
 
-        left, right = 0, len(nums)
-        while left < right:
+        n = len(nums)
+        left, right = 0, len(nums) - 1
+        ans = n
+
+        while left <= right:
             mid = (left + right) // 2
 
-            if nums[mid] < target:
-                left = mid + 1
+            if nums[mid] >= target:
+                ans = mid
+                right = mid - 1
             else:
-                right = mid
+                left = mid + 1
 
-        return left
+        return ans
 
 
     # Using Bisect
