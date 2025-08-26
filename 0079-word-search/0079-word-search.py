@@ -23,6 +23,7 @@ class Solution:
                             return True
 
             visited[row][col] = 0
+            board[row][col] = tem
             return False
 
         for i in range(row_len):
@@ -45,20 +46,22 @@ class Solution:
 
         directions = [(0, 1), (1, 0), (-1, 0), (0, -1)]
 
+        visited = [[False] * col_len for _ in range(row_len)]
+
         def dfs(row, col, ind):
             if ind == len(word):
                 return True
 
-            temp = board[row][col]
-            board[row][col] = '#'  # mark as visited
+            visited[row][col] = True
 
             for dx, dy in directions:
                 nr, nc = row + dx, col + dy
-                if 0 <= nr < row_len and 0 <= nc < col_len and board[nr][nc] == word[ind]:
-                    if dfs(nr, nc, ind + 1):
-                        return True
+                if 0 <= nr < row_len and 0 <= nc < col_len:
+                    if not visited[nr][nc] and board[nr][nc] == word[ind]:
+                        if dfs(nr, nc, ind + 1):
+                            return True
 
-            board[row][col] = temp  # backtrack
+            visited[row][col] = False  # backtrack
             return False
 
         for i in range(row_len):
