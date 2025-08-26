@@ -1,4 +1,6 @@
 class Solution:
+
+    # Time: O(logn), Constant space
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
 
         low, high = 0, len(letters) - 1
