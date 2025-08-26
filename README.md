@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Sathish8472/DSA-Problems/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/Sathish8472/DSA-Problems/tree/master/0217-contains-duplicate) |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Sathish8472/DSA-Problems/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Sathish8472/DSA-Problems/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0212-word-search-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Sathish8472/DSA-Problems/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/Sathish8472/DSA-Problems/tree/master/0498-diagonal-traverse) |
@@ -615,6 +617,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Sathish8472/DSA-Problems/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Sathish8472/DSA-Problems/tree/master/0205-isomorphic-strings) |
+| [0212-word-search-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0212-word-search-ii) |
 | [0227-basic-calculator-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0227-basic-calculator-ii) |
 | [0257-binary-tree-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0257-binary-tree-paths) |
 | [0267-palindrome-permutation-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0267-palindrome-permutation-ii) |
@@ -708,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Sathish8472/DSA-Problems/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Sathish8472/DSA-Problems/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0216-combination-sum-iii) |
 | [0254-factor-combinations](https://github.com/Sathish8472/DSA-Problems/tree/master/0254-factor-combinations) |
 | [0257-binary-tree-paths](https://github.com/Sathish8472/DSA-Problems/tree/master/0257-binary-tree-paths) |
@@ -785,6 +789,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Sathish8472/DSA-Problems/tree/master/0014-longest-common-prefix) |
+| [0212-word-search-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0212-word-search-ii) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
 ## Interactive
 |  |
