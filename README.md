@@ -696,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Sathish8472/DSA-Problems/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2998-count-symmetric-integers](https://github.com/Sathish8472/DSA-Problems/tree/master/2998-count-symmetric-integers) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Sathish8472/DSA-Problems/tree/master/3001-apply-operations-to-maximize-score) |
+| [3279-alice-and-bob-playing-flower-game](https://github.com/Sathish8472/DSA-Problems/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/3704-count-partitions-with-even-sum-difference) |
 ## Combinatorics
 |  |
