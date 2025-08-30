@@ -1,8 +1,24 @@
 class Solution:
 
+    # Bit manipulation
+    # Time: O(N), Space: O(1)
+    def singleNumber(self, nums: List[int]) -> int:
+        a = 0
+        for i in nums:
+            a ^= i
+        return a
+
+
+    # Math 
+    # Time: O(N), SpacE: O(N)
+    def singleNumber_3(self, nums: List[int]) -> int:
+        return 2 * sum(set(nums)) - sum(nums)               # T: O(N + N), S: O(N)
+
+
+
     # Hashtable
     # Time: O(N), Space: O(N)
-    def singleNumber(self, nums: List[int]) -> int:
+    def singleNumber_2(self, nums: List[int]) -> int:
         hashtable = defaultdict(int)
 
         for num in nums:
@@ -13,19 +29,4 @@ class Solution:
                 return num
             
         return 0
-
-
-    # Brute List operation
-    # time: O(N * N), SpacE: O(N)
-    def singleNumber_1(self, nums: List[int]) -> int:
-        no_duplicate_list = []
-
-        for num in nums:
-            if num not in no_duplicate_list:            # time: O(N)
-                no_duplicate_list.append(num)
-            else:
-                no_duplicate_list.remove(num)
-        
-        return no_duplicate_list.pop()
-
         
