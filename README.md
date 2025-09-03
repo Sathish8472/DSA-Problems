@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1380-number-of-closed-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/1380-number-of-closed-islands) |
 | [1396-count-servers-that-communicate](https://github.com/Sathish8472/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1483-rank-teams-by-votes](https://github.com/Sathish8472/DSA-Problems/tree/master/1483-rank-teams-by-votes) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/0338-counting-bits) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/Sathish8472/DSA-Problems/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Sathish8472/DSA-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/2308-divide-array-into-equal-pairs) |
@@ -566,6 +568,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1297-maximum-number-of-balloons](https://github.com/Sathish8472/DSA-Problems/tree/master/1297-maximum-number-of-balloons) |
 | [1364-tuple-with-same-product](https://github.com/Sathish8472/DSA-Problems/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/Sathish8472/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1483-rank-teams-by-votes](https://github.com/Sathish8472/DSA-Problems/tree/master/1483-rank-teams-by-votes) |
 | [1635-number-of-good-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/1635-number-of-good-pairs) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sathish8472/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -600,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1483-rank-teams-by-votes](https://github.com/Sathish8472/DSA-Problems/tree/master/1483-rank-teams-by-votes) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sathish8472/DSA-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
