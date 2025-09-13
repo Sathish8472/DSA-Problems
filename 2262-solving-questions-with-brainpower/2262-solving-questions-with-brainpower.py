@@ -11,8 +11,11 @@ class Solution:
             skip = dp[i + 1]
 
             dp[i] = max(solve, skip)
+            print(i, dp[i])
 
+        print(dp)
         return dp[0]
+
 
     # Memoization, Time: O(N), Space: O(N) + O(N) stack and dp array
     def mostPoints2(self, questions: List[List[int]]) -> int:
