@@ -1,29 +1,20 @@
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
-        dp = [0] * (target + 1)
-        dp[0] = 1
 
-        for i in range(target + 1):
-            for num in nums:
-                if i >= num:
-                    dp[i] += dp[i - num]
-                
-        return dp[-1]
+        return self.getAllCombination(0, 0, target, nums)
 
-
-    def combinationSum4_1(self, nums: List[int], target: int) -> int:
-
-        self.counts = 0
-
-        def comb(tar):
-            if tar == 0:
-                self.counts += 1
-            for num in nums:
-                if num > tar:
-                    break
-                comb(tar - num)
+    
+    def getAllCombination(self, ind, currentSum, target, nums):
+        if currentSum == target:
+            return 1
         
-        comb(target)
+        if currentSum > target:
+            return 0
 
-        return self.counts
+        if ind >= len(nums):
+            return 0
         
+        take = self.getAllCombination(ind, currentSum + nums[ind], target, nums)
+        noTake = self.getAllCombination(ind + 1, currentSum, target, nums)
+
+        return take + noTake
