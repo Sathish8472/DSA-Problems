@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0346-moving-average-from-data-stream](https://github.com/Sathish8472/DSA-Problems/tree/master/0346-moving-average-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/Sathish8472/DSA-Problems/tree/master/0368-largest-divisible-subset) |
 | [0377-combination-sum-iv](https://github.com/Sathish8472/DSA-Problems/tree/master/0377-combination-sum-iv) |
+| [0403-frog-jump](https://github.com/Sathish8472/DSA-Problems/tree/master/0403-frog-jump) |
 | [0407-trapping-rain-water-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Sathish8472/DSA-Problems/tree/master/0417-pacific-atlantic-water-flow) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Sathish8472/DSA-Problems/tree/master/0368-largest-divisible-subset) |
 | [0377-combination-sum-iv](https://github.com/Sathish8472/DSA-Problems/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0392-is-subsequence) |
+| [0403-frog-jump](https://github.com/Sathish8472/DSA-Problems/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0518-coin-change-ii) |
