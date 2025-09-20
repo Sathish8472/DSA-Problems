@@ -3,37 +3,43 @@ class Solution:
         n = len(matrix)
         m = len(matrix[0])
 
-        dp = [[0 for j in range(m)] for i in range(n)]
+        prev = matrix[0][:]
+
+        for i in range(1, n):
+            curr = [0] * m
+
+            for j in range(m):
+                up = prev[j]
+                left_dg = prev[j - 1] if j - 1 >= 0 else float('inf')
+                right_dg = prev[j + 1] if j + 1 < m else float('inf')
+                curr[j] = matrix[i][j] + min(up, left_dg, right_dg)
+            
+            prev = curr
+        
+        return min(prev)
+
+
+
+
+    def minFallingPathSum1(self, matrix: List[List[int]]) -> int:
+        n = len(matrix)
+        m = len(matrix[0])
+
+        dp = [[0] * m for _ in range(n)]
 
         for j in range(m):
             dp[0][j] = matrix[0][j]
         
         for i in range(1, n):
             for j in range(m):
-
-                up = matrix[i][j] + dp[i - 1][j]
-
-                left_dg = matrix[i][j]
-                if j - 1 >= 0:
-                    left_dg += dp[i - 1][j - 1]
-                else:
-                    left_dg += float('inf')
                 
-                right_dg = matrix[i][j]
-                if j + 1 < m:
-                    right_dg += dp[i - 1][j + 1]
-                else:
-                    right_dg += float('inf')
+                up = dp[i-1][j]
+                left_diag = dp[i-1][j-1] if j-1 >= 0 else float('inf')
+                right_diag = dp[i-1][j+1] if j+1 < m else float('inf')
 
-                dp[i][j] = min(up, left_dg, right_dg)
+                dp[i][j] = matrix[i][j] + min(up, left_diag, right_diag)
 
-            
-        min_sum = float('inf')
-
-        for j in range(m):
-            min_sum = min(min_sum, dp[n - 1][j])
-
-        return min_sum
+        return min(dp[-1])
     
 
     def minFallingPathSum_2(self, matrix: List[List[int]]) -> int:
