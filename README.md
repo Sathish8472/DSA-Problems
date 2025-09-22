@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Sathish8472/DSA-Problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3797-design-spreadsheet](https://github.com/Sathish8472/DSA-Problems/tree/master/3797-design-spreadsheet) |
+| [3892-best-time-to-buy-and-sell-stock-v](https://github.com/Sathish8472/DSA-Problems/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
 ## Hash Table
 |  |
 | ------- |
@@ -458,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Sathish8472/DSA-Problems/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/Sathish8472/DSA-Problems/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Sathish8472/DSA-Problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3892-best-time-to-buy-and-sell-stock-v](https://github.com/Sathish8472/DSA-Problems/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
 ## Stack
 |  |
 | ------- |
