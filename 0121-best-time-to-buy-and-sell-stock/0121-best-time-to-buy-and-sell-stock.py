@@ -1,5 +1,4 @@
 class Solution:
-
     # One pass Efficient Approach
     def maxProfit(self, prices: List[int]) -> int:
         max_profit = 0
@@ -8,16 +7,13 @@ class Solution:
         for price in prices:
             if price < min_price:
                 min_price = price
-            else:
-                profit = price - min_price
-                max_profit = max(max_profit, profit)
+        
+            profit = price - min_price
+            max_profit = max(max_profit, profit)
                 
         return max_profit
 
-    
-
-
-    # DP, Not Efficient
+    # DP - Extra Space
     # Time : O(N)
     def maxProfit_33(self, prices: List[int]) -> int:
         n = len(prices)
@@ -32,11 +28,6 @@ class Solution:
             dp[i] = max(dp[i - 1], prices[i] - min_price)
 
         return dp[-1]
-
-
-
-
-
 
 
     # Brute force
