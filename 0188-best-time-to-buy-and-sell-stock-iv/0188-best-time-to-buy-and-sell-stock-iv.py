@@ -5,11 +5,11 @@ class Solution:
             return 0
         
         dp = [[[-1 for _ in range(k + 1)] for _ in range(2)] for _ in range(n)]
-        ans = self.solve1(0, 0, k, n, prices, dp)
+        ans = self.solve(0, 0, k, n, prices, dp)
 
         return ans
     
-    def solve1(self, ind, holding, cap, n, prices, dp):
+    def solve(self, ind, holding, cap, n, prices, dp):
         if ind == n or cap <= 0:
             return 0
         
@@ -30,7 +30,7 @@ class Solution:
         dp[ind][holding][cap] = profit
         return profit
 
-    def solve(self, ind, holding, cap, n, prices, dp):
+    def solve1(self, ind, holding, cap, n, prices, dp):
         if ind == n or cap <= 0:   # stop if no days left or no transactions left
             return 0
         
