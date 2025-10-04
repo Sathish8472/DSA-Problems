@@ -4,14 +4,14 @@ class Solution:
         s1 = (target + totalSum) // 2
         n = len(nums)
 
-        if abs(target) > totalSum or (totalSum + target) % 2 != 0:
-            return 0
+        # if abs(target) > totalSum or (totalSum + target) % 2 != 0:
+        #     return 0
 
-        # if totalSum - target < 0:
-        #     return 0
+        if totalSum - target < 0:
+            return 0
         
-        # if (totalSum - target) % 2 == 1:
-        #     return 0
+        if (totalSum - target) % 2 == 1:
+            return 0
 
         return self.solve(n - 1, s1, nums)
 
