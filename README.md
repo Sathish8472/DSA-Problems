@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2145-grid-game](https://github.com/Sathish8472/DSA-Problems/tree/master/2145-grid-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2169-simple-bank-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2169-simple-bank-system) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sathish8472/DSA-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Sathish8472/DSA-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2262-solving-questions-with-brainpower](https://github.com/Sathish8472/DSA-Problems/tree/master/2262-solving-questions-with-brainpower) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Sathish8472/DSA-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2107-find-unique-binary-string) |
+| [2169-simple-bank-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2169-simple-bank-system) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Sathish8472/DSA-Problems/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2434-design-a-number-container-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2434-design-a-number-container-system) |
@@ -803,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Sathish8472/DSA-Problems/tree/master/0498-diagonal-traverse) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Sathish8472/DSA-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2048-build-array-from-permutation](https://github.com/Sathish8472/DSA-Problems/tree/master/2048-build-array-from-permutation) |
+| [2169-simple-bank-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2169-simple-bank-system) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Sathish8472/DSA-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2470-removing-stars-from-a-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2470-removing-stars-from-a-string) |
 | [2551-apply-operations-to-an-array](https://github.com/Sathish8472/DSA-Problems/tree/master/2551-apply-operations-to-an-array) |
@@ -821,6 +824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/1477-product-of-the-last-k-numbers) |
+| [2169-simple-bank-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2169-simple-bank-system) |
 | [2434-design-a-number-container-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2434-design-a-number-container-system) |
 | [3797-design-spreadsheet](https://github.com/Sathish8472/DSA-Problems/tree/master/3797-design-spreadsheet) |
 ## Ordered Set
