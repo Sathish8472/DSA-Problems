@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Sathish8472/DSA-Problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3797-design-spreadsheet](https://github.com/Sathish8472/DSA-Problems/tree/master/3797-design-spreadsheet) |
+| [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 | [3892-best-time-to-buy-and-sell-stock-v](https://github.com/Sathish8472/DSA-Problems/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
 ## Hash Table
 |  |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Sathish8472/DSA-Problems/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3797-design-spreadsheet](https://github.com/Sathish8472/DSA-Problems/tree/master/3797-design-spreadsheet) |
+| [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Sathish8472/DSA-Problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/Sathish8472/DSA-Problems/tree/master/2793-count-the-number-of-complete-components) |
+| [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 ## Graph
 |  |
 | ------- |
@@ -338,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/Sathish8472/DSA-Problems/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Sathish8472/DSA-Problems/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -353,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/Sathish8472/DSA-Problems/tree/master/2681-put-marbles-in-bags) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 ## Matrix
 |  |
 | ------- |
@@ -570,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2564-most-profitable-path-in-a-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/Sathish8472/DSA-Problems/tree/master/2793-count-the-number-of-complete-components) |
+| [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 ## Union Find
 |  |
 | ------- |
@@ -593,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/Sathish8472/DSA-Problems/tree/master/2793-count-the-number-of-complete-components) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sathish8472/DSA-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Sathish8472/DSA-Problems/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 ## Counting
 |  |
 | ------- |
@@ -843,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2434-design-a-number-container-system](https://github.com/Sathish8472/DSA-Problems/tree/master/2434-design-a-number-container-system) |
 | [2447-merge-similar-items](https://github.com/Sathish8472/DSA-Problems/tree/master/2447-merge-similar-items) |
+| [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 ## Greedy
 |  |
 | ------- |
