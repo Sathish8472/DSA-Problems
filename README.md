@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1603-running-sum-of-1d-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1635-number-of-good-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/1635-number-of-good-pairs) |
+| [1710-maximum-units-on-a-truck](https://github.com/Sathish8472/DSA-Problems/tree/master/1710-maximum-units-on-a-truck) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Sathish8472/DSA-Problems/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Sathish8472/DSA-Problems/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Sathish8472/DSA-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -652,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1483-rank-teams-by-votes](https://github.com/Sathish8472/DSA-Problems/tree/master/1483-rank-teams-by-votes) |
+| [1710-maximum-units-on-a-truck](https://github.com/Sathish8472/DSA-Problems/tree/master/1710-maximum-units-on-a-truck) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sathish8472/DSA-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Sathish8472/DSA-Problems/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -866,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sathish8472/DSA-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Sathish8472/DSA-Problems/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1710-maximum-units-on-a-truck](https://github.com/Sathish8472/DSA-Problems/tree/master/1710-maximum-units-on-a-truck) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Sathish8472/DSA-Problems/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sathish8472/DSA-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
