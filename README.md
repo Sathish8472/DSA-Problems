@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0219-contains-duplicate-ii) |
 | [0267-palindrome-permutation-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0267-palindrome-permutation-ii) |
 | [0383-ransom-note](https://github.com/Sathish8472/DSA-Problems/tree/master/0383-ransom-note) |
+| [0460-lfu-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0460-lfu-cache) |
 | [0652-find-duplicate-subtrees](https://github.com/Sathish8472/DSA-Problems/tree/master/0652-find-duplicate-subtrees) |
 | [0690-employee-importance](https://github.com/Sathish8472/DSA-Problems/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
@@ -859,6 +860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/Sathish8472/DSA-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/Sathish8472/DSA-Problems/tree/master/0346-moving-average-from-data-stream) |
+| [0460-lfu-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0460-lfu-cache) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/1477-product-of-the-last-k-numbers) |
@@ -926,6 +928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0328-odd-even-linked-list) |
 | [0369-plus-one-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0369-plus-one-linked-list) |
+| [0460-lfu-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0460-lfu-cache) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
 | [0908-middle-of-the-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -1150,4 +1153,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
