@@ -195,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Sathish8472/DSA-Problems/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/Sathish8472/DSA-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Sathish8472/DSA-Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Sathish8472/DSA-Problems/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/Sathish8472/DSA-Problems/tree/master/0169-majority-element) |
@@ -851,6 +852,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Sathish8472/DSA-Problems/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Sathish8472/DSA-Problems/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/Sathish8472/DSA-Problems/tree/master/0225-implement-stack-using-queues) |
@@ -916,6 +918,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0141-linked-list-cycle](https://github.com/Sathish8472/DSA-Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Sathish8472/DSA-Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0206-reverse-linked-list) |
@@ -1143,4 +1146,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3625-count-number-of-trapezoids-ii) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
