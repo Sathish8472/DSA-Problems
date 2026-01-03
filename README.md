@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/Sathish8472/DSA-Problems/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Sathish8472/DSA-Problems/tree/master/0792-binary-search) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
+| [0840-magic-squares-in-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/0840-magic-squares-in-grid) |
 | [0854-making-a-large-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0756-pyramid-transition-matrix](https://github.com/Sathish8472/DSA-Problems/tree/master/0756-pyramid-transition-matrix) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [0817-design-hashmap](https://github.com/Sathish8472/DSA-Problems/tree/master/0817-design-hashmap) |
+| [0840-magic-squares-in-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/0840-magic-squares-in-grid) |
 | [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -403,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Sathish8472/DSA-Problems/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/Sathish8472/DSA-Problems/tree/master/0741-cherry-pickup) |
+| [0840-magic-squares-in-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/0840-magic-squares-in-grid) |
 | [0854-making-a-large-island](https://github.com/Sathish8472/DSA-Problems/tree/master/0854-making-a-large-island) |
 | [0967-minimum-falling-path-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/Sathish8472/DSA-Problems/tree/master/1036-rotting-oranges) |
@@ -788,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0679-24-game](https://github.com/Sathish8472/DSA-Problems/tree/master/0679-24-game) |
 | [0826-soup-servings](https://github.com/Sathish8472/DSA-Problems/tree/master/0826-soup-servings) |
+| [0840-magic-squares-in-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/0840-magic-squares-in-grid) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
 | [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [1013-fibonacci-number](https://github.com/Sathish8472/DSA-Problems/tree/master/1013-fibonacci-number) |
