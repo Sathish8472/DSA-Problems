@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/Sathish8472/DSA-Problems/tree/master/1396-count-servers-that-communicate) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Sathish8472/DSA-Problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Sathish8472/DSA-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1483-rank-teams-by-votes](https://github.com/Sathish8472/DSA-Problems/tree/master/1483-rank-teams-by-votes) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -502,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Sathish8472/DSA-Problems/tree/master/1013-fibonacci-number) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1559-cherry-pickup-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/1559-cherry-pickup-ii) |
 | [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/Sathish8472/DSA-Problems/tree/master/1611-minimum-one-bit-operations-to-make-integers-zero) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
