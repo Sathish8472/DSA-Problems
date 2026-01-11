@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/Sathish8472/DSA-Problems/tree/master/0066-plus-one) |
 | [0078-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Sathish8472/DSA-Problems/tree/master/0079-word-search) |
+| [0085-maximal-rectangle](https://github.com/Sathish8472/DSA-Problems/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/Sathish8472/DSA-Problems/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/Sathish8472/DSA-Problems/tree/master/0079-word-search) |
+| [0085-maximal-rectangle](https://github.com/Sathish8472/DSA-Problems/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/Sathish8472/DSA-Problems/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Sathish8472/DSA-Problems/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0212-word-search-ii) |
@@ -478,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Sathish8472/DSA-Problems/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Sathish8472/DSA-Problems/tree/master/0070-climbing-stairs) |
+| [0085-maximal-rectangle](https://github.com/Sathish8472/DSA-Problems/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/Sathish8472/DSA-Problems/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sathish8472/DSA-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -525,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Sathish8472/DSA-Problems/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/Sathish8472/DSA-Problems/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0145-binary-tree-postorder-traversal) |
@@ -548,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sathish8472/DSA-Problems/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/Sathish8472/DSA-Problems/tree/master/0085-maximal-rectangle) |
 | [0316-remove-duplicate-letters](https://github.com/Sathish8472/DSA-Problems/tree/master/0316-remove-duplicate-letters) |
 | [3001-apply-operations-to-maximize-score](https://github.com/Sathish8472/DSA-Problems/tree/master/3001-apply-operations-to-maximize-score) |
 ## Prefix Sum
