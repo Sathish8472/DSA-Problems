@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Sathish8472/DSA-Problems/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3453-separate-squares-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3453-separate-squares-i) |
+| [3454-separate-squares-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3454-separate-squares-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3483-alternating-groups-ii) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Sathish8472/DSA-Problems/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
@@ -1080,6 +1081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2665-minimum-time-to-repair-cars](https://github.com/Sathish8472/DSA-Problems/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/Sathish8472/DSA-Problems/tree/master/2690-house-robber-iv) |
 | [3453-separate-squares-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3453-separate-squares-i) |
+| [3454-separate-squares-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3454-separate-squares-ii) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1210,4 +1212,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/Sathish8472/DSA-Problems/tree/master/0460-lfu-cache) |
+## Segment Tree
+|  |
+| ------- |
+| [3454-separate-squares-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3454-separate-squares-ii) |
+## Line Sweep
+|  |
+| ------- |
+| [3454-separate-squares-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3454-separate-squares-ii) |
 <!---LeetCode Topics End-->
