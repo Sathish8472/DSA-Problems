@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sathish8472/DSA-Problems/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Sathish8472/DSA-Problems/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3321-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3321-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Sathish8472/DSA-Problems/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-range-product-queries-of-powers](https://github.com/Sathish8472/DSA-Problems/tree/master/2529-range-product-queries-of-powers) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Sathish8472/DSA-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2792-neighboring-bitwise-xor](https://github.com/Sathish8472/DSA-Problems/tree/master/2792-neighboring-bitwise-xor) |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Sathish8472/DSA-Problems/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Sathish8472/DSA-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
