@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-minimum-number-of-people-to-teach](https://github.com/Sathish8472/DSA-Problems/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Sathish8472/DSA-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/Sathish8472/DSA-Problems/tree/master/1876-map-of-highest-peak) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Sathish8472/DSA-Problems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Sathish8472/DSA-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1895-largest-magic-square](https://github.com/Sathish8472/DSA-Problems/tree/master/1895-largest-magic-square) |
@@ -480,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Sathish8472/DSA-Problems/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0392-is-subsequence) |
 | [0908-middle-of-the-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0908-middle-of-the-linked-list) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1894-merge-strings-alternately](https://github.com/Sathish8472/DSA-Problems/tree/master/1894-merge-strings-alternately) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -723,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1483-rank-teams-by-votes](https://github.com/Sathish8472/DSA-Problems/tree/master/1483-rank-teams-by-votes) |
 | [1710-maximum-units-on-a-truck](https://github.com/Sathish8472/DSA-Problems/tree/master/1710-maximum-units-on-a-truck) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2092-find-all-people-with-secret](https://github.com/Sathish8472/DSA-Problems/tree/master/2092-find-all-people-with-secret) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sathish8472/DSA-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -962,6 +965,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Sathish8472/DSA-Problems/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1710-maximum-units-on-a-truck](https://github.com/Sathish8472/DSA-Problems/tree/master/1710-maximum-units-on-a-truck) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Sathish8472/DSA-Problems/tree/master/1834-minimum-number-of-people-to-teach) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Sathish8472/DSA-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sathish8472/DSA-Problems/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Sathish8472/DSA-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2591-frog-jump-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/2591-frog-jump-ii) |
