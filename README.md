@@ -411,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/Sathish8472/DSA-Problems/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 | [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 ## Matrix
 |  |
@@ -460,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Sathish8472/DSA-Problems/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/Sathish8472/DSA-Problems/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Two Pointers
 |  |
 | ------- |
@@ -1257,4 +1259,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3454-separate-squares-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3454-separate-squares-ii) |
+## Graph Theory
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/Sathish8472/DSA-Problems/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
