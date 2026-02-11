@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Sathish8472/DSA-Problems/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3719-longest-balanced-subarray-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3719-longest-balanced-subarray-i) |
+| [3721-longest-balanced-subarray-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3721-longest-balanced-subarray-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Sathish8472/DSA-Problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3797-design-spreadsheet](https://github.com/Sathish8472/DSA-Problems/tree/master/3797-design-spreadsheet) |
 | [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3623-count-number-of-trapezoids-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3719-longest-balanced-subarray-i) |
+| [3721-longest-balanced-subarray-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3721-longest-balanced-subarray-ii) |
 | [3797-design-spreadsheet](https://github.com/Sathish8472/DSA-Problems/tree/master/3797-design-spreadsheet) |
 | [3863-power-grid-maintenance](https://github.com/Sathish8472/DSA-Problems/tree/master/3863-power-grid-maintenance) |
 ## Bit Manipulation
@@ -617,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3616-make-array-elements-equal-to-zero](https://github.com/Sathish8472/DSA-Problems/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3704-count-partitions-with-even-sum-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/3704-count-partitions-with-even-sum-difference) |
 | [3719-longest-balanced-subarray-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3719-longest-balanced-subarray-i) |
+| [3721-longest-balanced-subarray-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3721-longest-balanced-subarray-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -935,6 +938,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1382-balance-a-binary-search-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/1382-balance-a-binary-search-tree) |
 | [3719-longest-balanced-subarray-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3719-longest-balanced-subarray-i) |
+| [3721-longest-balanced-subarray-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3721-longest-balanced-subarray-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -1289,6 +1293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3454-separate-squares-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3454-separate-squares-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3719-longest-balanced-subarray-i) |
+| [3721-longest-balanced-subarray-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3721-longest-balanced-subarray-ii) |
 ## Line Sweep
 |  |
 | ------- |
