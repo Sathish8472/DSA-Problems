@@ -287,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Sathish8472/DSA-Problems/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3625-count-number-of-trapezoids-ii) |
+| [3713-longest-balanced-substring-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3721-longest-balanced-subarray-ii) |
 | [3797-design-spreadsheet](https://github.com/Sathish8472/DSA-Problems/tree/master/3797-design-spreadsheet) |
@@ -720,6 +721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/Sathish8472/DSA-Problems/tree/master/2448-count-number-of-bad-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sathish8472/DSA-Problems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3583-count-special-triplets](https://github.com/Sathish8472/DSA-Problems/tree/master/3583-count-special-triplets) |
+| [3713-longest-balanced-substring-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3713-longest-balanced-substring-i) |
 ## Topological Sort
 |  |
 | ------- |
@@ -837,6 +839,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/Sathish8472/DSA-Problems/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3606-coupon-code-validator](https://github.com/Sathish8472/DSA-Problems/tree/master/3606-coupon-code-validator) |
+| [3713-longest-balanced-substring-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3713-longest-balanced-substring-i) |
 | [3797-design-spreadsheet](https://github.com/Sathish8472/DSA-Problems/tree/master/3797-design-spreadsheet) |
 ## Math
 |  |
@@ -1258,6 +1261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sathish8472/DSA-Problems/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2998-count-symmetric-integers](https://github.com/Sathish8472/DSA-Problems/tree/master/2998-count-symmetric-integers) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3713-longest-balanced-substring-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3713-longest-balanced-substring-i) |
 ## Bitmask
 |  |
 | ------- |
