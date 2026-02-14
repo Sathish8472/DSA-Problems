@@ -542,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sathish8472/DSA-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0741-cherry-pickup](https://github.com/Sathish8472/DSA-Problems/tree/master/0741-cherry-pickup) |
 | [0747-min-cost-climbing-stairs](https://github.com/Sathish8472/DSA-Problems/tree/master/0747-min-cost-climbing-stairs) |
+| [0799-champagne-tower](https://github.com/Sathish8472/DSA-Problems/tree/master/0799-champagne-tower) |
 | [0806-domino-and-tromino-tiling](https://github.com/Sathish8472/DSA-Problems/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/Sathish8472/DSA-Problems/tree/master/0826-soup-servings) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Sathish8472/DSA-Problems/tree/master/0905-length-of-longest-fibonacci-subsequence) |
