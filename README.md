@@ -307,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Sathish8472/DSA-Problems/tree/master/0222-count-complete-tree-nodes) |
 | [0260-single-number-iii](https://github.com/Sathish8472/DSA-Problems/tree/master/0260-single-number-iii) |
 | [0338-counting-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/0338-counting-bits) |
+| [0693-binary-number-with-alternating-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/0693-binary-number-with-alternating-bits) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0756-pyramid-transition-matrix](https://github.com/Sathish8472/DSA-Problems/tree/master/0756-pyramid-transition-matrix) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/Sathish8472/DSA-Problems/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
