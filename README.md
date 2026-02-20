@@ -754,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0692-top-k-frequent-words](https://github.com/Sathish8472/DSA-Problems/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
+| [0761-special-binary-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0761-special-binary-string) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Sathish8472/DSA-Problems/tree/master/0900-reordered-power-of-2) |
 | [1200-minimum-absolute-difference](https://github.com/Sathish8472/DSA-Problems/tree/master/1200-minimum-absolute-difference) |
@@ -814,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Sathish8472/DSA-Problems/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/Sathish8472/DSA-Problems/tree/master/0721-accounts-merge) |
 | [0756-pyramid-transition-matrix](https://github.com/Sathish8472/DSA-Problems/tree/master/0756-pyramid-transition-matrix) |
+| [0761-special-binary-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0761-special-binary-string) |
 | [0778-reorganize-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0778-reorganize-string) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
 | [1006-vowel-spellchecker](https://github.com/Sathish8472/DSA-Problems/tree/master/1006-vowel-spellchecker) |
@@ -948,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Sathish8472/DSA-Problems/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/0191-number-of-1-bits) |
+| [0761-special-binary-string](https://github.com/Sathish8472/DSA-Problems/tree/master/0761-special-binary-string) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sathish8472/DSA-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1382-balance-a-binary-search-tree](https://github.com/Sathish8472/DSA-Problems/tree/master/1382-balance-a-binary-search-tree) |
 | [3719-longest-balanced-subarray-i](https://github.com/Sathish8472/DSA-Problems/tree/master/3719-longest-balanced-subarray-i) |
