@@ -310,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0693-binary-number-with-alternating-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/0693-binary-number-with-alternating-bits) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Sathish8472/DSA-Problems/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0756-pyramid-transition-matrix](https://github.com/Sathish8472/DSA-Problems/tree/master/0756-pyramid-transition-matrix) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Sathish8472/DSA-Problems/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/Sathish8472/DSA-Problems/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/Sathish8472/DSA-Problems/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/Sathish8472/DSA-Problems/tree/master/1611-minimum-one-bit-operations-to-make-integers-zero) |
@@ -872,6 +873,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0369-plus-one-linked-list](https://github.com/Sathish8472/DSA-Problems/tree/master/0369-plus-one-linked-list) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Sathish8472/DSA-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0679-24-game](https://github.com/Sathish8472/DSA-Problems/tree/master/0679-24-game) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Sathish8472/DSA-Problems/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0826-soup-servings](https://github.com/Sathish8472/DSA-Problems/tree/master/0826-soup-servings) |
 | [0840-magic-squares-in-grid](https://github.com/Sathish8472/DSA-Problems/tree/master/0840-magic-squares-in-grid) |
 | [0873-guess-the-word](https://github.com/Sathish8472/DSA-Problems/tree/master/0873-guess-the-word) |
